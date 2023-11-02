@@ -17,6 +17,22 @@ import Service1 from "../assets/images/services/web.png";
 import Service2 from "../assets/images/services/android.png";
 import Service3 from "../assets/images/services/design.png";
 
+import Design1 from "../assets/images/designs/Group 1.svg";
+import Design2 from "../assets/images/designs/Group 2.svg";
+import Design3 from "../assets/images/designs/Group 3.svg";
+import Design4 from "../assets/images/designs/Group 4.svg";
+import Design5 from "../assets/images/designs/Group 5.svg";
+import Design6 from "../assets/images/designs/Group 6.svg";
+import Design7 from "../assets/images/designs/Group 7.svg";
+import Design8 from "../assets/images/designs/Group 8.svg";
+import Design9 from "../assets/images/designs/Group 9.svg";
+import Design10 from "../assets/images/designs/Group 10.svg";
+import Design11 from "../assets/images/designs/Group 11.svg";
+import Design12 from "../assets/images/designs/Group 12.svg";
+import Design13 from "../assets/images/designs/Group 13.svg";
+import Design14 from "../assets/images/designs/Group 14.svg";
+import Design15 from "../assets/images/designs/Group 15.svg";
+
 import Project1 from "../assets/images/projects/Missing.svg";
 import Project2 from "../assets/images/projects/okoa.png";
 import Project3 from "../assets/images/projects/HelpFind.png";
@@ -27,6 +43,7 @@ import SubTitles from "../components/SubTitles";
 import { HiArrowSmRight } from "react-icons/hi";
 
 import Marquee from "react-fast-marquee";
+import MoreDesigns from "../components/MoreDesigns";
 
 function LandingPage() {
   return (
@@ -355,14 +372,45 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div>
-          <div className="py-28 -rotate-6">
-            <Marquee direction="right">
-              <p className="text-[32px] font-semibold bg-[#A86FF4] py-2">
+        {/* <div>
+          <div className="py-28">
+            <Marquee direction="right" autoFill>
+              <p className="text-[32px] font-semibold bg-[#A86FF4] py-2 overflow-hidden">
                 WEB DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB
                 DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB DEVELOPMENT |
                 | APP DEVELOPMENT | UI/UX DESIGN |{""}
               </p>
+            </Marquee>
+          </div>
+        </div> */}
+        <div className="py-32">
+          <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+            <SubTitles
+              sub={"More of "}
+              heading={"What we have"}
+              colored={"done"}
+              last={""}
+            />
+          </div>
+          <Marquee pauseOnHover>
+            <MoreDesigns images={Design1} links={""} />
+            <MoreDesigns images={Design3} links={""} />
+            <MoreDesigns images={Design5} links={""} />
+            <MoreDesigns images={Design7} links={""} />
+            <MoreDesigns images={Design9} links={""} />
+            <MoreDesigns images={Design11} links={""} />
+            <MoreDesigns images={Design13} links={""} />
+            <MoreDesigns images={Design15} links={""} />
+          </Marquee>
+          <div className="mt-4">
+            <Marquee pauseOnHover direction="right">
+              <MoreDesigns images={Design2} links={""} />
+              <MoreDesigns images={Design4} links={""} />
+              <MoreDesigns images={Design6} links={""} />
+              <MoreDesigns images={Design8} links={""} />
+              <MoreDesigns images={Design10} links={""} />
+              <MoreDesigns images={Design12} links={""} />
+              <MoreDesigns images={Design14} links={""} />
             </Marquee>
           </div>
         </div>
