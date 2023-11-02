@@ -3,7 +3,7 @@ import Design from "../assets/images/hero/Group 26.svg";
 import Web from "../assets/images/hero/Group 27.svg";
 import Android from "../assets/images/hero/Group 28.svg";
 import PatternOne from "../assets/images/hero/pattern1.svg";
-import EmojiFire from "../assets/images/emoji_fire.svg";
+// import EmojiFire from "../assets/images/emoji_fire.svg";
 import Image from "../assets/images/Logo.svg";
 
 import Logo1 from "../assets/images/Logos/1.svg";
