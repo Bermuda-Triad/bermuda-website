@@ -26,6 +26,8 @@ import SubTitles from "../components/SubTitles";
 
 import { HiArrowSmRight } from "react-icons/hi";
 
+import Marquee from "react-fast-marquee";
+
 function LandingPage() {
   return (
     <div>
@@ -182,7 +184,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24">
           <div>
             <div>
               <div>
@@ -250,7 +252,7 @@ function LandingPage() {
                     </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 gap-4 items-center lg:hidden">
+                <div className="grid grid-cols-1 lg:gap-4 items-center lg:hidden">
                   <div>
                     <div className="flex items-center gap-5">
                       <p className="font-bold text-[96px]">1</p>
@@ -305,7 +307,63 @@ function LandingPage() {
                   </div>
                 </div>
               </div>
+              <div className="pt-32">
+                <div className="text-center">
+                  <SubTitles
+                    sub={"Testimonials"}
+                    heading={"Words from our"}
+                    colored={"Clients"}
+                    last={""}
+                  />
+                  <div className="grid lg:grid-cols-3 mt-12 lg:gap-10 gap-5">
+                    <div className="text-left border p-6 rounded-xl border-[#3c3f42]">
+                      <p className="text-[#94A3B8]">
+                        Aliquet ridiculus mi porta habitant vulputate rhoncus,
+                        mattis amet enim. Sit purus venenatis velit semper
+                        lectus sed ornare quam nulla. Lacus, ut congue sagittis
+                        vel nisi integer imperdiet a vitae.
+                      </p>
+                      <p className="font-bold text-lg mt-4 text-[#94A3B8]">
+                        Hellena John
+                      </p>
+                    </div>
+                    <div className="text-left border p-6 rounded-xl border-[#3c3f42]">
+                      <p className="text-[#94A3B8]">
+                        Aliquet ridiculus mi porta habitant vulputate rhoncus,
+                        mattis amet enim. Sit purus venenatis velit semper
+                        lectus sed ornare quam nulla. Lacus, ut congue sagittis
+                        vel nisi integer imperdiet a vitae.
+                      </p>
+                      <p className="font-bold text-lg mt-4 text-[#94A3B8]">
+                        Hellena John
+                      </p>
+                    </div>
+                    <div className="text-left border p-6 rounded-xl border-[#3c3f42]">
+                      <p className="text-[#94A3B8]">
+                        Aliquet ridiculus mi porta habitant vulputate rhoncus,
+                        mattis amet enim. Sit purus venenatis velit semper
+                        lectus sed ornare quam nulla. Lacus, ut congue sagittis
+                        vel nisi integer imperdiet a vitae.
+                      </p>
+                      <p className="font-bold text-lg mt-4 text-[#94A3B8]">
+                        Hellena John
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <div className="py-28 -rotate-6">
+            <Marquee direction="right">
+              <p className="text-[32px] font-semibold bg-[#A86FF4] py-2">
+                WEB DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB
+                DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB DEVELOPMENT |
+                | APP DEVELOPMENT | UI/UX DESIGN |{""}
+              </p>
+            </Marquee>
           </div>
         </div>
       </div>
