@@ -29,10 +29,10 @@ import Design8 from "../assets/images/designs/Group 8.svg";
 import Design9 from "../assets/images/designs/Group 9.svg";
 import Design10 from "../assets/images/designs/Group 10.svg";
 import Design11 from "../assets/images/designs/Group 11.svg";
-import Design12 from "../assets/images/designs/Group 12.svg";
-import Design13 from "../assets/images/designs/Group 13.svg";
-import Design14 from "../assets/images/designs/Group 14.svg";
-import Design15 from "../assets/images/designs/Group 15.svg";
+import Design12 from "../assets/images/designs/Group 12.png";
+import Design13 from "../assets/images/designs/Group 13.png";
+import Design14 from "../assets/images/designs/Group 14.png";
+import Design15 from "../assets/images/designs/Group 15.png";
 
 import Project1 from "../assets/images/projects/Missing.svg";
 import Project2 from "../assets/images/projects/okoa.png";

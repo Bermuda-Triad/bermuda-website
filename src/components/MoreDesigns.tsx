@@ -31,7 +31,7 @@ function MoreDesigns(props: MoreImagesProps) {
       {isHovered && (
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-70">
           {/* Your icon goes here */}
-          <a href="https://search.brave.com/images?q=Dribbble.com+logo+png&source=web">
+          <a href="">
             <div className="text-[#E84C88] text-6xl">
               <img src={Dribbble} alt="" className="w-14" />
             </div>
