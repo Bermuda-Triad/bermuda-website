@@ -107,22 +107,22 @@ function LandingPage() {
         </div>
       </div>
       <div className="bg-[#F6E5D6]">
-        <div className="py-20 text-[#262424] lg:pb-32">
-          <div className="flex justify-center gap-1 font-medium">
+        <div className="lg:py-20 text-[#262424] lg:pb-32">
+          {/* <div className="flex justify-center gap-1 font-medium">
             <p className="text-[#262424]">Let's Work Together</p>
             <img src={EmojiFire} alt="" />
-          </div>
+          </div> */}
           <p className="text-[#262424] font-bold text-center text-2xl py-6">
             Trusted By
           </p>
           <div className="grid grid-cols-3 lg:flex justify-center gap-8 lg:gap-12 px-4">
-            <img src={Logo1} alt="" className="w-40" />
-            <img src={Logo2} alt="" className="w-28" />
-            <img src={Logo3} alt="" className="w-40" />
+            <img src={Logo1} alt="" className="lg:w-40" />
+            <img src={Logo2} alt="" className="lg:w-28" />
+            <img src={Logo3} alt="" className="lg:w-40" />
             {/* <img src={Logo4} alt="" className="w-20" /> */}
-            <img src={Logo5} alt="" className="w-28" />
-            <img src={Logo6} alt="" className="w-28" />
-            <img src={Logo7} alt="" className="w-28" />
+            <img src={Logo5} alt="" className="lg:w-28" />
+            <img src={Logo6} alt="" className="lg:w-28" />
+            <img src={Logo7} alt="" className="lg:w-28" />
           </div>
         </div>
 
