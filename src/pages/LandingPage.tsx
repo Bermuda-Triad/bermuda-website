@@ -4,6 +4,7 @@ import Web from "../assets/images/hero/Group 27.svg";
 import Android from "../assets/images/hero/Group 28.svg";
 import PatternOne from "../assets/images/hero/pattern1.svg";
 import EmojiFire from "../assets/images/emoji_fire.svg";
+import Image from "../assets/images/Logo.svg";
 
 import Logo1 from "../assets/images/Logos/1.svg";
 import Logo2 from "../assets/images/Logos/2.svg";
@@ -39,6 +40,11 @@ import Project3 from "../assets/images/projects/HelpFind.png";
 import Process from "../assets/images/projects/process.svg";
 import ProjectCards from "../components/ProjectCards";
 import SubTitles from "../components/SubTitles";
+
+import { RiTwitterXFill } from "react-icons/ri";
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { RiInstagramFill } from "react-icons/ri";
+import { RiDribbbleFill } from "react-icons/ri";
 
 import { HiArrowSmRight } from "react-icons/hi";
 
@@ -318,7 +324,7 @@ function LandingPage() {
               </div>
               <div className="flex justify-center mt-12">
                 <div className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold">
-                  <p className="text-xs lg:text-xl">Work with us</p>
+                  <p className="text-lg lg:text-xl">Work with us</p>
                   <div className="text-2xl">
                     <HiArrowSmRight />
                   </div>
@@ -383,7 +389,7 @@ function LandingPage() {
             </Marquee>
           </div>
         </div> */}
-        <div className="py-32">
+        <div className="lg:py-32">
           <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <SubTitles
               sub={"More of "}
@@ -402,7 +408,7 @@ function LandingPage() {
             <MoreDesigns images={Design13} links={""} />
             <MoreDesigns images={Design15} links={""} />
           </Marquee>
-          <div className="mt-4">
+          <div className="mt-6">
             <Marquee pauseOnHover direction="right">
               <MoreDesigns images={Design2} links={""} />
               <MoreDesigns images={Design4} links={""} />
@@ -412,6 +418,33 @@ function LandingPage() {
               <MoreDesigns images={Design12} links={""} />
               <MoreDesigns images={Design14} links={""} />
             </Marquee>
+          </div>
+        </div>
+        <div className="py-32 bg-[#F6E5D6]">
+          <div>
+            <p className="font-bold text-center text-[40px] text-[#18171C]">
+              Ready To Shape Your <br></br> Valuable Idea?
+            </p>
+            <div className="flex justify-center mt-12">
+              <div className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold">
+                <p className="text-lg lg:text-xl">Let’s Work Together</p>
+                <div className="text-2xl">
+                  <HiArrowSmRight />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+          <div className="flex flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between items-center">
+            <img src={Image} alt="" />
+            <p>© 2023 Bermuda Studio. All Rights Reserved.</p>
+            <div className="flex text-3xl gap-2">
+              <RiTwitterXFill />
+              <RiLinkedinBoxFill />
+              <RiInstagramFill />
+              <RiDribbbleFill />
+            </div>
           </div>
         </div>
       </div>
