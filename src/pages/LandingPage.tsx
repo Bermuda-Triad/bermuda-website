@@ -8,7 +8,7 @@ import EmojiFire from "../assets/images/emoji_fire.svg";
 import Logo1 from "../assets/images/Logos/1.svg";
 import Logo2 from "../assets/images/Logos/2.svg";
 import Logo3 from "../assets/images/Logos/3.svg";
-import Logo4 from "../assets/images/Logos/4.svg";
+// import Logo4 from "../assets/images/Logos/4.svg";
 import Logo5 from "../assets/images/Logos/5.svg";
 import Logo6 from "../assets/images/Logos/6.svg";
 import Logo7 from "../assets/images/Logos/7.svg";
@@ -16,6 +16,10 @@ import Logo7 from "../assets/images/Logos/7.svg";
 import Service1 from "../assets/images/services/web.png";
 import Service2 from "../assets/images/services/android.png";
 import Service3 from "../assets/images/services/design.png";
+
+import Project1 from "../assets/images/projects/Missing.svg";
+import Project2 from "../assets/images/projects/okoa.png";
+import Project3 from "../assets/images/projects/HelpFind.png";
 
 function LandingPage() {
   return (
@@ -150,6 +154,58 @@ function LandingPage() {
                   is to use the website or app. It's like making sure everything
                   is user-friendly and visually pleasing, just like arranging
                   furniture in a cozy room.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#18171C]">
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-24">
+          <div>
+            <p className="text-[#FF5E3A] text-base font-semibold">Portfolio</p>
+            <p className="leading-none text-[36px] font-bold mt-3">
+              Recent <span className="text-[#A86FF4] ">Projects</span>{" "}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-20 mt-8">
+            <div>
+              <img src={Project1} alt="" className="w-full" />
+              <div className="flex justify-between mt-4">
+                <p className="font-bold text-[24px] leading-none">
+                  Missing Mark
+                </p>
+                <p className="underline text-[#A86FF4]">
+                  Case Study (Coming Soon)
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src={Project2} alt="" className="w-full" />
+              <div className="flex justify-between mt-4">
+                <p className="font-bold text-[24px] leading-none">Okoa Sem</p>
+                <p className="underline text-[#A86FF4]">
+                  Case Study (Coming Soon)
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src={Project1} alt="" className="w-full" />
+              <div className="flex justify-between mt-4">
+                <p className="font-bold text-[24px] leading-none">
+                  Missing Mark
+                </p>
+                <p className="underline text-[#A86FF4]">
+                  Case Study (Coming Soon)
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src={Project3} alt="" className="w-full" />
+              <div className="flex justify-between mt-4">
+                <p className="font-bold text-[24px] leading-none">HelpFind</p>
+                <p className="underline text-[#A86FF4]">
+                  Case Study (Coming Soon)
                 </p>
               </div>
             </div>
