@@ -20,6 +20,11 @@ import Service3 from "../assets/images/services/design.png";
 import Project1 from "../assets/images/projects/Missing.svg";
 import Project2 from "../assets/images/projects/okoa.png";
 import Project3 from "../assets/images/projects/HelpFind.png";
+import Process from "../assets/images/projects/process.svg";
+import ProjectCards from "../components/ProjectCards";
+import SubTitles from "../components/SubTitles";
+
+import { HiArrowSmRight } from "react-icons/hi";
 
 function LandingPage() {
   return (
@@ -99,6 +104,7 @@ function LandingPage() {
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
           <p className="text-3xl mt-3 font-bold text-[#262424]">What we do</p>
+          {/* <SubTitles sub={""} heading={""} colored={""} last={""} /> */}
           <div className="mt-6">
             <div className="grid lg:grid-cols-2 items-center">
               <img src={Service1} alt="" className="w-full mb-4 lg:w-auto " />
@@ -161,52 +167,143 @@ function LandingPage() {
         </div>
       </div>
       <div className="bg-[#18171C]">
-        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-24">
-          <div>
-            <p className="text-[#FF5E3A] text-base font-semibold">Portfolio</p>
-            <p className="leading-none text-[36px] font-bold mt-3">
-              Recent <span className="text-[#A86FF4] ">Projects</span>{" "}
-            </p>
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+          <SubTitles
+            sub={"Portfolio"}
+            heading={" Recent "}
+            colored={"Projects"}
+            last={""}
+          />
+          <div className="grid lg:grid-cols-2 gap-10 mt-8">
+            <ProjectCards image={Project1} title={" Missing Mark"} />
+            <ProjectCards image={Project2} title={" Okoa Sem"} />
+            <ProjectCards image={Project1} title={" Bizup"} />
+            <ProjectCards image={Project3} title={" HelpFind"} />
           </div>
-          <div className="grid grid-cols-2 gap-20 mt-8">
+        </div>
+
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+          <div>
             <div>
-              <img src={Project1} alt="" className="w-full" />
-              <div className="flex justify-between mt-4">
-                <p className="font-bold text-[24px] leading-none">
-                  Missing Mark
+              <div>
+                <p className="text-[#FF5E3A] text-base font-semibold text-center">
+                  Process
                 </p>
-                <p className="underline text-[#A86FF4]">
-                  Case Study (Coming Soon)
+                <p className="leading-none text-[36px] font-bold mt-3 text-center">
+                  How we{" "}
+                  <span className="text-[#A86FF4] ">
+                    Work<br></br> Together
+                  </span>{" "}
+                  with you
                 </p>
               </div>
-            </div>
-            <div>
-              <img src={Project2} alt="" className="w-full" />
-              <div className="flex justify-between mt-4">
-                <p className="font-bold text-[24px] leading-none">Okoa Sem</p>
-                <p className="underline text-[#A86FF4]">
-                  Case Study (Coming Soon)
-                </p>
+              <div className="mt-16">
+                <div className="lg:grid grid-cols-3 gap-10 items-center hidden">
+                  <div>
+                    <div className="flex items-center gap-5">
+                      <p className="font-bold text-[96px]">1</p>
+                      <p>
+                        <span className="text-white font-bold">
+                          Brief/Short Details:{" "}
+                        </span>
+                        Come to us with a project brief or short project details
+                        that you have currently to give us an idea of your
+                        project or product.
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <p className="font-bold text-[96px]">3</p>
+                      <p>
+                        <span className="text-white font-bold">
+                          Providing Quote:{" "}
+                        </span>
+                        We will be providing you a quote for the project after
+                        having the answers from you.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="lg:flex justify-center">
+                    <img src={Process} alt="" className="" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-5">
+                      <p className="font-bold text-[96px]">2</p>
+                      <p className="text-[16px]">
+                        <span className="text-white font-bold">
+                          Questions:{" "}
+                        </span>
+                        After having the details from you, we'll ask questions
+                        related to your project to understand the project length
+                        and scope.
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-4">
+                      <p className="font-bold text-[96px]">4</p>
+                      <p>
+                        <span className="text-white font-bold">
+                          Get Started:{" "}
+                        </span>
+                        If the quote works for both of us, we can have a short
+                        meeting or we can directly jump into the process of
+                        getting started.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 gap-4 items-center lg:hidden">
+                  <div>
+                    <div className="flex items-center gap-5">
+                      <p className="font-bold text-[96px]">1</p>
+                      <p>
+                        <span className="text-white font-bold">
+                          Brief/Short Details:{" "}
+                        </span>
+                        Come to us with a project brief or short project details
+                        that you have currently to give us an idea of your
+                        project or product.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-5">
+                    <p className="font-bold text-[96px]">2</p>
+                    <p className="text-[16px]">
+                      <span className="text-white font-bold">Questions: </span>
+                      After having the details from you, we'll ask questions
+                      related to your project to understand the project length
+                      and scope.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <p className="font-bold text-[96px]">3</p>
+                    <p>
+                      <span className="text-white font-bold">
+                        Providing Quote:{" "}
+                      </span>
+                      We will be providing you a quote for the project after
+                      having the answers from you.
+                    </p>
+                  </div>
+
+                  <div className="flex items-center gap-4">
+                    <p className="font-bold text-[96px]">4</p>
+                    <p>
+                      <span className="text-white font-bold">
+                        Get Started:{" "}
+                      </span>
+                      If the quote works for both of us, we can have a short
+                      meeting or we can directly jump into the process of
+                      getting started.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div>
-              <img src={Project1} alt="" className="w-full" />
-              <div className="flex justify-between mt-4">
-                <p className="font-bold text-[24px] leading-none">
-                  Missing Mark
-                </p>
-                <p className="underline text-[#A86FF4]">
-                  Case Study (Coming Soon)
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src={Project3} alt="" className="w-full" />
-              <div className="flex justify-between mt-4">
-                <p className="font-bold text-[24px] leading-none">HelpFind</p>
-                <p className="underline text-[#A86FF4]">
-                  Case Study (Coming Soon)
-                </p>
+              <div className="flex justify-center mt-12">
+                <div className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold">
+                  <p className="text-xs lg:text-xl">Work with us</p>
+                  <div className="text-2xl">
+                    <HiArrowSmRight />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
