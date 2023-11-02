@@ -420,9 +420,9 @@ function LandingPage() {
             </Marquee>
           </div>
         </div>
-        <div className="py-32 bg-[#F6E5D6]">
+        <div className="py-32 bg-[#F6E5D6] px-4">
           <div>
-            <p className="font-bold text-center text-[40px] text-[#18171C]">
+            <p className="font-bold text-center text-3xl lg:text-[40px] text-[#18171C] leading-snug">
               Ready To Shape Your <br></br> Valuable Idea?
             </p>
             <div className="flex justify-center mt-12">
