@@ -58,7 +58,7 @@ import MoreDesigns from "../components/MoreDesigns";
 
 function LandingPage() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <div className="bg-[#18171C]">
         <NavigationBar />
         <div className="relative">
@@ -133,7 +133,9 @@ function LandingPage() {
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
-          <p className="text-3xl mt-3 font-bold text-[#262424]">What we do</p>
+          <p className="text-3xl mt-3 font-bold text-[#262424]" id="services">
+            What we do
+          </p>
           {/* <SubTitles sub={""} heading={""} colored={""} last={""} /> */}
           <div className="mt-6">
             <div className="grid lg:grid-cols-2 items-center">
@@ -196,7 +198,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="bg-[#18171C]">
+      <div className="bg-[#18171C]" id="projects">
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
           <SubTitles
             sub={"Portfolio"}
@@ -231,7 +233,10 @@ function LandingPage() {
                 <p className="text-[#FF5E3A] text-base font-semibold text-center">
                   Process
                 </p>
-                <p className="leading-none text-[36px] font-bold mt-3 text-center">
+                <p
+                  className="leading-none text-[36px] font-bold mt-3 text-center"
+                  id="process"
+                >
                   How we{" "}
                   <span className="text-[#A86FF4] ">
                     Work<br></br> Together
