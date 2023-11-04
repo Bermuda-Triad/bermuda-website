@@ -41,6 +41,11 @@ import Process from "../assets/images/projects/process.svg";
 import ProjectCards from "../components/ProjectCards";
 import SubTitles from "../components/SubTitles";
 
+import Illustration1 from "../assets/images/illustrations/Group 2.svg";
+import Illustration2 from "../assets/images/illustrations/Group 3.svg";
+import Illustration3 from "../assets/images/illustrations/Group.svg";
+import Illustration4 from "../assets/images/illustrations/Group 5.svg";
+
 import { RiTwitterXFill } from "react-icons/ri";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import { RiInstagramFill } from "react-icons/ri";
@@ -420,8 +425,8 @@ function LandingPage() {
             </Marquee>
           </div>
         </div>
-        <div className="py-32 bg-[#F6E5D6] px-4">
-          <div>
+        <div className="py-8 lg:py-32 bg-[#F6E5D6] px-4 relative">
+          <div className="relative">
             <p className="font-bold text-center text-3xl lg:text-[40px] text-[#18171C] leading-snug">
               Ready To Shape Your <br></br> Valuable Idea?
             </p>
@@ -432,6 +437,28 @@ function LandingPage() {
                   <HiArrowSmRight />
                 </div>
               </div>
+            </div>
+            <div>
+              <img
+                src={Illustration1}
+                alt=""
+                className="absolute top-0 right-80 hidden lg:block"
+              />
+              <img
+                src={Illustration2}
+                alt=""
+                className="absolute lg:left-80 lg:-top-20 -bottom-30 lg:bottom-0 hidden lg:block"
+              />
+              <img
+                src={Illustration3}
+                alt=""
+                className="absolute right-0 hidden lg:block"
+              />
+              <img
+                src={Illustration4}
+                alt=""
+                className="absolute -bottom-30 hidden lg:block"
+              />
             </div>
           </div>
         </div>
