@@ -8,9 +8,15 @@ function NavigationBar() {
         <div className="flex justify-between items-center">
           <img src={Image} alt="" />
           <div className="lg:flex gap-6 hidden">
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#process">Process</a>
+            <a href="#services" className="hover:text-[#A259FF]">
+              Services
+            </a>
+            <a href="#projects" className="hover:text-[#A259FF]">
+              Projects
+            </a>
+            <a href="#process" className="hover:text-[#A259FF]">
+              Process
+            </a>
           </div>
           <div className="flex gap-2 items-center py-2 px-4 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-bold">
             <p className="text-xs lg:text-base">Work with us</p>
