@@ -212,6 +212,18 @@ function LandingPage() {
           </div>
         </div>
 
+        <div>
+          <div className="">
+            <Marquee direction="right" autoFill>
+              <p className="text-xl lg:text-[32px] font-semibold bg-[#A86FF4] py-2 overflow-hidden">
+                WEB DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB
+                DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB DEVELOPMENT |
+                | APP DEVELOPMENT | UI/UX DESIGN |{""}
+              </p>
+            </Marquee>
+          </div>
+        </div>
+
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24">
           <div>
             <div>
@@ -383,18 +395,8 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        {/* <div>
-          <div className="py-28">
-            <Marquee direction="right" autoFill>
-              <p className="text-[32px] font-semibold bg-[#A86FF4] py-2 overflow-hidden">
-                WEB DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB
-                DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB DEVELOPMENT |
-                | APP DEVELOPMENT | UI/UX DESIGN |{""}
-              </p>
-            </Marquee>
-          </div>
-        </div> */}
-        <div className="lg:py-32">
+
+        <div className="lg:py-32 pb-8">
           <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <SubTitles
               sub={"More of "}
@@ -427,8 +429,8 @@ function LandingPage() {
         </div>
         <div className="py-8 lg:py-32 bg-[#F6E5D6] px-4 relative">
           <div className="relative">
-            <p className="font-bold text-center text-3xl lg:text-[40px] text-[#18171C] leading-snug">
-              Ready To Shape Your <br></br> Valuable Idea?
+            <p className="font-bold text-center text-3xl lg:text-5xl text-[#18171C]">
+              We Can Help You <br></br> Grow and Innovate.
             </p>
             <div className="flex justify-center mt-12">
               <div className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold">
@@ -462,6 +464,7 @@ function LandingPage() {
             </div>
           </div>
         </div>
+
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
           <div className="flex flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between items-center">
             <img src={Image} alt="" />
