@@ -215,7 +215,7 @@ function LandingPage() {
         <div>
           <div className="">
             <Marquee direction="right" autoFill>
-              <p className="text-xl lg:text-[32px] font-semibold bg-[#A86FF4] py-2 overflow-hidden">
+              <p className="text-xl lg:text-[32px] font-semibold bg-[#A86FF4] py-2 lg:py-4 overflow-hidden">
                 WEB DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB
                 DEVELOPMENT | APP DEVELOPMENT | UI/UX DESIGN | WEB DEVELOPMENT |
                 | APP DEVELOPMENT | UI/UX DESIGN |{""}
