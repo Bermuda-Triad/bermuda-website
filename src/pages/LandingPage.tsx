@@ -396,7 +396,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="lg:py-32 pb-8">
+        <div className="lg:py-16 pb-8 ">
           <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <SubTitles
               sub={"More of "}
