@@ -81,7 +81,7 @@ function LandingPage() {
                   Digital Solutions
                 </span>
               </h1>
-              <p className="text-[#B0AFBB] lg:w-[590px] text-center mx-auto mt-4 text-[18px]">
+              <p className="text-[#B0AFBB] lg:w-[590px] text-center mx-auto mt-4 text-[16px] lg:text-[18px]">
                 Our main focus in{" "}
                 <span className="text-white font-bold">
                   {" "}
