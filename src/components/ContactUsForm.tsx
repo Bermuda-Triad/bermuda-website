@@ -17,14 +17,14 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
       <div className="fixed inset-0 flex items-center justify-center z-50">
         <div className="modal-overlay bg-black opacity-70 inset-0 fixed"></div>
         <div className="modal-container bg-[#F6E5D6] w-11/12 md:max-w-md lg:max-w-6xl mx-auto rounded-xl shadow-lg z-50 overflow-y-auto">
-          <div className="modal-content py-8 text-left px-10">
-            <div className="modal-contact-content grid grid-cols-2 gap-10">
-              <div className="flex justify-center">
+          <div className="modal-content py-8 text-left px-4 lg:px-10">
+            <div className="modal-contact-content grid lg:grid-cols-2 gap-10">
+              <div className="lg:flex justify-center hidden">
                 <img src={Illustration1} alt="" className="w-2/3" />
               </div>
-              <div className="border-l px-8 border-gray-500">
+              <div className="lg:border-l lg:px-8 border-gray-500">
                 <div className="flex justify-between items-center mb-10">
-                  <h1 className="text-3xl font-bold text-black">
+                  <h1 className="text-xl lg:text-3xl font-bold text-black">
                     Let's Work Together
                   </h1>
                   <span
