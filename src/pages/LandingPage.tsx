@@ -385,35 +385,40 @@ function LandingPage() {
                   <div className="grid lg:grid-cols-3 mt-12 lg:gap-10 gap-5">
                     <div className="text-left border p-6 rounded-xl border-[#3c3f42]">
                       <p className="text-[#94A3B8]">
-                        Aliquet ridiculus mi porta habitant vulputate rhoncus,
-                        mattis amet enim. Sit purus venenatis velit semper
-                        lectus sed ornare quam nulla. Lacus, ut congue sagittis
-                        vel nisi integer imperdiet a vitae.
+                        "The app development services I received were top-notch.
+                        The team's expertise and dedication ensured that my app
+                        not only met but exceeded my expectations. Their
+                        willingness to collaborate and their innovative
+                        solutions made the entire process a pleasure. I'm
+                        thrilled with the final product"
                       </p>
                       <p className="font-bold text-lg mt-4 text-[#94A3B8]">
-                        Hellena John
+                        Grace Atieno
                       </p>
                     </div>
                     <div className="text-left border p-6 rounded-xl border-[#3c3f42]">
                       <p className="text-[#94A3B8]">
-                        Aliquet ridiculus mi porta habitant vulputate rhoncus,
-                        mattis amet enim. Sit purus venenatis velit semper
-                        lectus sed ornare quam nulla. Lacus, ut congue sagittis
-                        vel nisi integer imperdiet a vitae.
+                        "I was impressed with the exceptional web development
+                        services provided by this team. They turned my vision
+                        into a functional and user-friendly website. Their
+                        attention to detail and commitment to delivering on time
+                        are truly commendable. I highly recommend their
+                        services!"
                       </p>
                       <p className="font-bold text-lg mt-4 text-[#94A3B8]">
-                        Hellena John
+                        Kamau Mbugua
                       </p>
                     </div>
                     <div className="text-left border p-6 rounded-xl border-[#3c3f42]">
                       <p className="text-[#94A3B8]">
-                        Aliquet ridiculus mi porta habitant vulputate rhoncus,
-                        mattis amet enim. Sit purus venenatis velit semper
-                        lectus sed ornare quam nulla. Lacus, ut congue sagittis
-                        vel nisi integer imperdiet a vitae.
+                        "I can't say enough about the outstanding UI/UX design
+                        work this team delivered. They transformed my ideas into
+                        an aesthetically pleasing and intuitive user experience.
+                        Their creative designs and user-centric approach set my
+                        project apart. I couldn't be happier with the results!"
                       </p>
                       <p className="font-bold text-lg mt-4 text-[#94A3B8]">
-                        Hellena John
+                        Hilda Mokami
                       </p>
                     </div>
                   </div>

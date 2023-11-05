@@ -13,7 +13,7 @@ export const sendMail = () =>{
     // }
     var error = false;
     
-    if (userName === "") {
+    if (userName === "") { 
       document.getElementById("nameError").textContent = "Name is a required field.";
       error = true;
     } else {
