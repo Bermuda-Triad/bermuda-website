@@ -75,7 +75,7 @@ function LandingPage() {
         <div className="relative">
           <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10 relative">
             <div className="relative lg:mt-10">
-              <h1 className="text-center text-[52px] font-bold mx-auto leading-none">
+              <h1 className="text-center text-[42px] lg:text-[52px] font-bold mx-auto leading-none">
                 We Build The <br></br> Best{" "}
                 <span className="text-[#A259FF] font-black ">
                   Digital Solutions
