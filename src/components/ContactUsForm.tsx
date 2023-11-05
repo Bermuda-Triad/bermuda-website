@@ -100,7 +100,7 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                       htmlFor="message"
                       className="block text-gray-700 text-lg font-semibold mb-2"
                     >
-                      Message:
+                      Describe you project in few words (Optional)
                     </label>
                     <textarea
                       id="message"
