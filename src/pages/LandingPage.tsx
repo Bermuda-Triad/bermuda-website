@@ -498,7 +498,9 @@ function LandingPage() {
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
           <div className="flex flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between items-center">
             <img src={Image} alt="" />
-            <p>© 2023 Bermuda Studio. All Rights Reserved.</p>
+            <p className="text-center">
+              © 2023 Bermuda Studio. All Rights Reserved.
+            </p>
             <div className="flex text-3xl gap-2">
               <RiTwitterXFill />
               <RiLinkedinBoxFill />
