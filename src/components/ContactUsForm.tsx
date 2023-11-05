@@ -1,4 +1,5 @@
 import Illustration1 from "../assets/images/illustrations/Group 2.svg";
+import { sendMail } from "../../src/SendEmail";
 
 interface ContactFormProps {
   closeModal: () => void;
@@ -11,7 +12,7 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
     closeModal();
   };
 
-  const services = ["Web Development", "App Development", "UI/UX Design"];
+  // const services = ["Web Development", "App Development", "UI/UX Design"];
   return (
     <div>
       <div className="fixed inset-0 flex items-center justify-center z-50">
@@ -49,10 +50,15 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                     </label>
                     <input
                       type="text"
-                      id="name"
+                      id="userName"
                       name="name"
+                      required
                       className="w-full border rounded-md py-2 px-3 text-gray-700 bg-[#F6E5D6] border-black"
                     />
+                    <div
+                      id="nameError"
+                      className="error-message text-red-500"
+                    ></div>
                   </div>
                   <div className="mb-4">
                     <label className="block text-gray-700 text-lg font-semibold mb-2 ">
@@ -62,29 +68,36 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                       type="email"
                       id="email"
                       name="email"
+                      required
                       className="w-full border rounded-md py-2 px-3 text-gray-700 bg-[#F6E5D6] border-black"
                     />
+                    <div
+                      id="emailError"
+                      className="error-message text-red-500"
+                    ></div>
                   </div>
                   <div className="mb-4">
                     <label
-                      htmlFor="service"
+                      htmlFor="services"
                       className="block text-gray-700 text-lg font-semibold mb-2"
                     >
                       Select a Service:
                     </label>
                     <select
-                      id="service"
-                      name="service"
+                      id="services"
+                      name="services"
+                      required
                       className="w-full border rounded-md py-2 px-3 text-gray-700 bg-[#F6E5D6] border-black "
                     >
-                      <option
-                        value=""
-                        disabled
-                        className="text-gray-700 selected"
-                      >
+                      <option disabled selected className="text-gray-700">
                         -- Select a service --
                       </option>
-                      {services.map((service, index) => (
+                      <option className="text-gray-700">Web Development</option>
+                      <option className="text-gray-700">
+                        Mobile App Development
+                      </option>
+                      <option className="text-gray-700">UI/UX Design</option>
+                      {/* {services.map((service, index) => (
                         <option
                           key={index}
                           value={service}
@@ -92,8 +105,12 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                         >
                           {service}
                         </option>
-                      ))}
+                      ))} */}
                     </select>
+                    <div
+                      id="servicesError"
+                      className="error-message text-red-500"
+                    ></div>
                   </div>
                   <div className="mb-4">
                     <label
@@ -103,13 +120,15 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                       Describe you project in few words (Optional)
                     </label>
                     <textarea
-                      id="message"
+                      id="description"
                       name="message"
                       className="w-full border rounded-md py-2 px-3 text-gray-700 bg-[#F6E5D6] border-black"
                     />
                   </div>
                   <button
                     type="submit"
+                    onClick={sendMail}
+                    // id="loaderButton"
                     className="bg-[#A259FF] hover:bg-[#a071dd] text-white py-2 px-4 rounded w-full font-bold text-2xl"
                   >
                     Submit
