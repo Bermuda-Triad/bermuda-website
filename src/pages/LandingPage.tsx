@@ -141,7 +141,7 @@ function LandingPage() {
               <img src={Logo5} alt="" className="w-28" />
             </div>
             <div className="flex justify-center">
-              <img src={Logo4} alt="" className="w-20" />
+              <img src={Logo4} alt="" className="w-14 lg:w-20" />
             </div>
 
             {/* <img src={Logo6} alt="" className="lg:w-28" />
