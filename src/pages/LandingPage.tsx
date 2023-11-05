@@ -9,10 +9,10 @@ import Image from "../assets/images/Logo.svg";
 import Logo1 from "../assets/images/Logos/1.svg";
 import Logo2 from "../assets/images/Logos/2.svg";
 import Logo3 from "../assets/images/Logos/3.svg";
-// import Logo4 from "../assets/images/Logos/4.svg";
+import Logo4 from "../assets/images/Logos/4.svg";
 import Logo5 from "../assets/images/Logos/5.svg";
-import Logo6 from "../assets/images/Logos/6.svg";
-import Logo7 from "../assets/images/Logos/7.svg";
+// import Logo6 from "../assets/images/Logos/6.svg";
+// import Logo7 from "../assets/images/Logos/7.svg";
 
 import Service1 from "../assets/images/services/web.png";
 import Service2 from "../assets/images/services/android.png";
@@ -64,7 +64,7 @@ function LandingPage() {
         <div className="relative">
           <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10 relative">
             <div className="relative lg:mt-10">
-              <h1 className="text-center text-[48px] font-bold mx-auto leading-none">
+              <h1 className="text-center text-[52px] font-bold mx-auto leading-none">
                 We Build The <br></br> Best{" "}
                 <span className="text-[#A259FF] font-black ">
                   Digital Solutions
@@ -113,10 +113,6 @@ function LandingPage() {
       </div>
       <div className="bg-[#F6E5D6]">
         <div className="lg:py-20 text-[#262424] lg:pb-32">
-          {/* <div className="flex justify-center gap-1 font-medium">
-            <p className="text-[#262424]">Let's Work Together</p>
-            <img src={EmojiFire} alt="" />
-          </div> */}
           <p className="text-[#262424] font-bold text-center text-2xl py-6">
             Trusted By
           </p>
@@ -124,14 +120,14 @@ function LandingPage() {
             <img src={Logo1} alt="" className="lg:w-40" />
             <img src={Logo2} alt="" className="lg:w-28" />
             <img src={Logo3} alt="" className="lg:w-40" />
-            {/* <img src={Logo4} alt="" className="w-20" /> */}
+            <img src={Logo4} alt="" className="w-20" />
             <img src={Logo5} alt="" className="lg:w-28" />
-            <img src={Logo6} alt="" className="lg:w-28" />
-            <img src={Logo7} alt="" className="lg:w-28" />
+            {/* <img src={Logo6} alt="" className="lg:w-28" />
+            <img src={Logo7} alt="" className="lg:w-28" /> */}
           </div>
         </div>
 
-        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
           <p className="text-3xl mt-3 font-bold text-[#262424]" id="services">
             What we do
