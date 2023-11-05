@@ -55,8 +55,19 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 import Marquee from "react-fast-marquee";
 import MoreDesigns from "../components/MoreDesigns";
+import { useState } from "react";
+import ContactUsForm from "../components/ContactUsForm";
 
 function LandingPage() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className="scroll-smooth">
       <div className="bg-[#18171C]">
@@ -341,13 +352,17 @@ function LandingPage() {
                 </div>
               </div>
               <div className="flex justify-center mt-12">
-                <div className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold">
+                <button
+                  onClick={openModal}
+                  className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold"
+                >
                   <p className="text-lg lg:text-xl">Work with us</p>
                   <div className="text-2xl">
                     <HiArrowSmRight />
                   </div>
-                </div>
+                </button>
               </div>
+              {isModalOpen && <ContactUsForm closeModal={closeModal} />}
               <div className="pt-32">
                 <div className="text-center">
                   <SubTitles
@@ -434,12 +449,15 @@ function LandingPage() {
               We Can Help You <br></br> Grow and Innovate.
             </p>
             <div className="flex justify-center mt-12">
-              <div className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold">
+              <button
+                onClick={openModal}
+                className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold"
+              >
                 <p className="text-lg lg:text-xl">Let’s Work Together</p>
                 <div className="text-2xl">
                   <HiArrowSmRight />
                 </div>
-              </div>
+              </button>
             </div>
             <div>
               <img
