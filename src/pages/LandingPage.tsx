@@ -128,17 +128,28 @@ function LandingPage() {
             Trusted By
           </p>
           <div className="grid grid-cols-3 lg:flex justify-center gap-8 lg:gap-12 px-4">
-            <img src={Logo1} alt="" className="lg:w-40" />
-            <img src={Logo2} alt="" className="lg:w-28" />
-            <img src={Logo3} alt="" className="lg:w-40" />
-            <img src={Logo4} alt="" className="w-20" />
-            <img src={Logo5} alt="" className="lg:w-28" />
+            <div className="flex justify-center">
+              <img src={Logo1} alt="" className="lg:w-40" />
+            </div>
+            <div className="flex justify-center">
+              <img src={Logo2} alt="" className="lg:w-28" />
+            </div>
+            <div className="flex justify-center">
+              <img src={Logo3} alt="" className="lg:w-40" />
+            </div>
+            <div className="flex justify-center">
+              <img src={Logo5} alt="" className="w-28" />
+            </div>
+            <div className="flex justify-center">
+              <img src={Logo4} alt="" className="w-20" />
+            </div>
+
             {/* <img src={Logo6} alt="" className="lg:w-28" />
             <img src={Logo7} alt="" className="lg:w-28" /> */}
           </div>
         </div>
 
-        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-10">
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
           <p className="text-3xl mt-3 font-bold text-[#262424]" id="services">
             What we do
