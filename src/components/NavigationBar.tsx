@@ -29,7 +29,6 @@ function NavigationBar() {
               Process
             </a>
           </div>
-
           <button
             onClick={openModal}
             id="openContactForm"
