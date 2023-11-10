@@ -11,6 +11,7 @@ export const sendMail = () =>{
     //     document.getElementById("ErrorText").textContent = "This field is required";
     //     return; // Exit the function if any field is empty
     // }
+
     var error = false;
     
     if (userName === "") { 
@@ -54,15 +55,18 @@ export const sendMail = () =>{
     emailjs.send(serviceID, templateID, params)
         .then(res => {
             // Clear the input fields and display success message
-            document.getElementById("userName").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("services").value = "";
-            document.getElementById("description").value = "";
+            // document.getElementById("userName").value = "";
+            // document.getElementById("email").value = "";
+            // document.getElementById("services").value = "";
+            // document.getElementById("description").value = "";
             alert("Your message sent successfully!!");
-            // openSuccessModal();
-            resetForm();
+            console.log("success")
         })
         .catch(err => console.log(err));
+
+
+
+        
 }
 
 

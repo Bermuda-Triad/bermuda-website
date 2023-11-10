@@ -97,15 +97,6 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                         Mobile App Development
                       </option>
                       <option className="text-gray-700">UI/UX Design</option>
-                      {/* {services.map((service, index) => (
-                        <option
-                          key={index}
-                          value={service}
-                          className="text-gray-700"
-                        >
-                          {service}
-                        </option>
-                      ))} */}
                     </select>
                     <div
                       id="servicesError"
