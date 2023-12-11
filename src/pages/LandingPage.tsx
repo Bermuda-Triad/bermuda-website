@@ -6,11 +6,11 @@ import PatternOne from "../assets/images/hero/pattern1.svg";
 // import EmojiFire from "../assets/images/emoji_fire.svg";
 import Image from "../assets/images/Logo.svg";
 
-import Logo1 from "../assets/images/Logos/1.svg";
-import Logo2 from "../assets/images/Logos/2.svg";
-import Logo3 from "../assets/images/Logos/3.svg";
-import Logo4 from "../assets/images/Logos/4.svg";
-import Logo5 from "../assets/images/Logos/5.svg";
+// import Logo1 from "../assets/images/Logos/1.svg";
+// import Logo2 from "../assets/images/Logos/2.svg";
+// import Logo3 from "../assets/images/Logos/3.svg";
+// import Logo4 from "../assets/images/Logos/4.svg";
+// import Logo5 from "../assets/images/Logos/5.svg";
 // import Logo6 from "../assets/images/Logos/6.svg";
 // import Logo7 from "../assets/images/Logos/7.svg";
 
