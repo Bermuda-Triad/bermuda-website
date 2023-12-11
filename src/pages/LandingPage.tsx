@@ -124,7 +124,7 @@ function LandingPage() {
         </div>
       </div>
       <div className="bg-[#F6E5D6]">
-        <div className="lg:py-20 text-[#262424] lg:pb-32">
+        {/* <div className="lg:py-20 text-[#262424] lg:pb-32">
           <p className="text-[#262424] font-bold text-center text-2xl py-6">
             Trusted By
           </p>
@@ -144,11 +144,8 @@ function LandingPage() {
             <div className="flex justify-center">
               <img src={Logo4} alt="" className="w-14 lg:w-20" />
             </div>
-
-            {/* <img src={Logo6} alt="" className="lg:w-28" />
-            <img src={Logo7} alt="" className="lg:w-28" /> */}
           </div>
-        </div>
+        </div> */}
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
@@ -163,7 +160,7 @@ function LandingPage() {
                 <p className="font-bold text-xl text-[#262424]">
                   Web Development
                 </p>
-                <p className="text-[#262424] mt-4">
+                <p className="text-[#262424] mt-4 lg:text-lg">
                   Web development is the art of creating websites. It's like
                   building a house, but on the internet!😎. Web developers use
                   special tools and languages to design and construct web pages,
@@ -175,16 +172,12 @@ function LandingPage() {
             <div className="grid lg:grid-cols-2 items-center py-12">
               <div>
                 <div className="lg:hidden">
-                  <img
-                    src={Service2}
-                    alt=""
-                    className="w-full lg:w-auto mb-4"
-                  />
+                  <img src={Service2} alt="" className="w-full mb-4" />
                 </div>
                 <p className="font-bold text-xl text-[#262424]">
                   Mobile App Development
                 </p>
-                <p className="text-[#262424] mt-4">
+                <p className="text-[#262424] mt-4 lg:text-lg">
                   App development is the creative process of building digital
                   programs that run on your mobile devices, such as smartphones
                   and tablets. App developers use coding languages to craft
@@ -194,7 +187,7 @@ function LandingPage() {
                   life and making them accessible with a tap of your finger.
                 </p>
               </div>
-              <div className="lg:flex justify-end hidden">
+              <div className="lg:flex justify-end hidden w-full">
                 <img src={Service2} alt="" className="w-full mb-4 lg:w-auto" />
               </div>
             </div>
@@ -202,7 +195,7 @@ function LandingPage() {
               <img src={Service3} alt="" className="w-full mb-4 lg:w-auto " />
               <div>
                 <p className="font-bold text-xl text-[#262424]">UI/UX Design</p>
-                <p className="text-[#262424] mt-4">
+                <p className="text-[#262424] mt-4 lg:text-lg">
                   UI/UX design is like the magic that makes websites and apps
                   easy to use and beautiful to look at. It's about creating
                   buttons, menus, and screens that feel intuitive and look
@@ -233,7 +226,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className="">
             <Marquee direction="right" autoFill>
               <p className="text-xl lg:text-[32px] font-semibold bg-[#A86FF4] py-2 lg:py-4 overflow-hidden">
@@ -243,7 +236,7 @@ function LandingPage() {
               </p>
             </Marquee>
           </div>
-        </div>
+        </div> */}
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24">
           <div>

@@ -119,7 +119,7 @@ const ContactUsForm: React.FC<ContactFormProps> = ({ closeModal }) => {
                   <button
                     type="submit"
                     onClick={sendMail}
-                    // id="loaderButton"
+                    id="loaderButton"
                     className="bg-[#A259FF] hover:bg-[#a071dd] text-white py-2 px-4 rounded w-full font-bold text-2xl"
                   >
                     Submit
