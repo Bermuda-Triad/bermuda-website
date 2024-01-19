@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Image from "../assets/images/Logo.svg";
+import Image from "../assets/images/Logo2.svg";
 import Emoji from "../assets/images/emoji-smile.svg";
 import ContactUsForm from "./ContactUsForm";
 
