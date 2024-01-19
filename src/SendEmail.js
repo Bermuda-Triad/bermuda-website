@@ -49,8 +49,8 @@ export const sendMail = () =>{
         services: services,
     };
 
-    const serviceID = "service_w0m94zq";
-    const templateID = "template_ea0686g";
+    const serviceID = "service_5sd2ebl";
+    const templateID = "template_i1vv55y";
 
     emailjs.send(serviceID, templateID, params)
         .then(res => {
