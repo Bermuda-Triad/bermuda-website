@@ -78,7 +78,7 @@ function LandingPage() {
             <div className="relative lg:mt-10">
               <h1 className="text-center text-[42px] lg:text-[52px] font-bold mx-auto leading-none">
                 We Build The <br></br> Best{" "}
-                <span className="text-[#A259FF] font-black ">
+                <span className="text-[#A86FF4] font-black ">
                   Digital Solutions
                 </span>
               </h1>

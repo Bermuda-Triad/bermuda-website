@@ -17,7 +17,7 @@ function NavigationBar() {
     <div>
       <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10">
         <div className="flex justify-between items-center">
-          <img src={Image} alt="" />
+          <img src={Image} alt="" className="w-32" />
           <div className="lg:flex gap-6 hidden">
             <a href="#services" className="hover:text-[#A259FF]">
               Services
