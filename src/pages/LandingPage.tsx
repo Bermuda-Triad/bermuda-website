@@ -57,6 +57,8 @@ import Marquee from "react-fast-marquee";
 import MoreDesigns from "../components/MoreDesigns";
 import { useState } from "react";
 import ContactUsForm from "../components/ContactUsForm";
+import { Helmet } from "react-helmet";
+import Thumbnail from "../assets/images/Thumbnail.png";
 
 function LandingPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -70,6 +72,26 @@ function LandingPage() {
 
   return (
     <div className="scroll-smooth">
+      <Helmet>
+        <title>Tarech Studio</title>
+        <meta
+          name="description"
+          content="Our main focus in Web Development, App Development & UX/UI Design is to create tailored solutions that align with our clients' business goals and effectively address their user’s needs."
+        />
+        <meta name="keywords" content="keyword1, keyword2, keyword3" />
+        <meta
+          property="og:title"
+          content="We Build The Best Digital Solutions"
+        />
+        <meta
+          property="og:description"
+          content="Our main focus in Web Development, App Development & UX/UI Design is to create tailored solutions that align with our clients' business goals and effectively address their user’s needs."
+        />
+        <meta property="og:image" content={Thumbnail} />
+        <meta property="og:url" content="https://tarech-studio.netlify.app/" />
+        <meta name="twitter:card" content={Thumbnail} />
+        {/* other meta tags */}
+      </Helmet>
       {isModalOpen && <ContactUsForm closeModal={closeModal} />}
       <div className="bg-[#18171C]">
         <NavigationBar />
