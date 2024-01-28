@@ -6,17 +6,9 @@ import PatternOne from "../assets/images/hero/pattern1.svg";
 // import EmojiFire from "../assets/images/emoji_fire.svg";
 import Image from "../assets/images/Logo2.svg";
 
-// import Logo1 from "../assets/images/Logos/1.svg";
-// import Logo2 from "../assets/images/Logos/2.svg";
-// import Logo3 from "../assets/images/Logos/3.svg";
-// import Logo4 from "../assets/images/Logos/4.svg";
-// import Logo5 from "../assets/images/Logos/5.svg";
-// import Logo6 from "../assets/images/Logos/6.svg";
-// import Logo7 from "../assets/images/Logos/7.svg";
+import WEB from "../assets/images/services/web-dev2.svg"
+import MOBILE from "../assets/images/services/mobile-dev.svg"
 
-import Service1 from "../assets/images/services/web.png";
-import Service2 from "../assets/images/services/android.png";
-import Service3 from "../assets/images/services/design.png";
 
 import Design1 from "../assets/images/designs/Group 1.png";
 import Design2 from "../assets/images/designs/Group 2.png";
@@ -147,36 +139,37 @@ function LandingPage() {
         </div>
       </div>
       <div className="bg-[#F6E5D6]">
-        {/* <div className="lg:py-20 text-[#262424] lg:pb-32">
-          <p className="text-[#262424] font-bold text-center text-2xl py-6">
-            Trusted By
-          </p>
-          <div className="grid grid-cols-3 lg:flex justify-center gap-8 lg:gap-12 px-4">
-            <div className="flex justify-center">
-              <img src={Logo1} alt="" className="lg:w-40" />
-            </div>
-            <div className="flex justify-center">
-              <img src={Logo2} alt="" className="lg:w-28" />
-            </div>
-            <div className="flex justify-center">
-              <img src={Logo3} alt="" className="lg:w-40" />
-            </div>
-            <div className="flex justify-center">
-              <img src={Logo5} alt="" className="w-28" />
-            </div>
-            <div className="flex justify-center">
-              <img src={Logo4} alt="" className="w-14 lg:w-20" />
-            </div>
-          </div>
-        </div> */}
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
           <p className="text-3xl mt-3 text-[#262424] hero" id="services">
             What we do
           </p>
-          {/* <SubTitles sub={""} heading={""} colored={""} last={""} /> */}
-          <div className="mt-6">
+          <div className="mt-8 ">
+            <div className="grid lg:grid-cols-2 gap-4">
+              <div className=" bg-[#B887EE] pt-6 rounded-xl flex flex-col">
+                <div className="flex-1">
+                  <p className="font-bold text-2xl text-[#262424] px-6">Web Development</p>
+                  <p className="text-[#262424] mt-2 px-6 pb-6 md:pb-0">Web development is the art of creating websites. It's like building a house, but on the internet!😎. Web developers use special tools and languages to design and construct web pages, making sure they look great, work smoothly, and provide the information or services you and your business need.</p>
+                </div>
+                <img src={WEB} alt="" className="hidden lg:block" />
+              </div>
+              <div className="">
+                <div className="p-6 bg-[#FD7346] rounded-xl mb-4">
+                  <p className="font-bold text-2xl text-[#262424]">UI/UX Design</p>
+                  <p className="text-[#262424] mt-2">UI/UX design is like the magic that makes websites and apps easy to use and beautiful to look at. It's about creating buttons, menus, and screens that feel intuitive and look appealing. UI (User Interface) focuses on how things appear, while UX (User Experience) is about how easy and enjoyable it is to use the website or app. It's like making sure everything is user-friendly and visually pleasing, just like arranging furniture in a cozy room.</p>
+                </div>
+                <div className="pt-6 bg-[#48C382] rounded-xl flex justify-between items-end">
+                  <div>
+                    <p className="font-bold text-2xl text-[#262424] pl-6">App Development</p>
+                    <p className="text-[#262424] mt-2 px-6 pb-6">App development is the creative process of building digital programs that run on your mobile devices, such as smartphones and tablets. App developers use coding languages to craft software that can perform a wide range of tasks, from games and social networking to organizing your to-do lists or helping you shop online. It's about bringing your ideas to life and making them accessible with a tap of your finger.</p>
+                  </div>
+                  <img src={MOBILE} alt="" className="hidden lg:block" />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="mt-6">
             <div className="grid lg:grid-cols-2 items-center">
               <img src={Service1} alt="" className="w-full mb-4 lg:w-auto " />
               <div>
@@ -230,7 +223,7 @@ function LandingPage() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="bg-[#18171C]" id="projects">
