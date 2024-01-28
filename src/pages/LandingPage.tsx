@@ -99,9 +99,9 @@ function LandingPage() {
         <div className="relative">
           <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10 relative">
             <div className="relative lg:mt-10">
-              <h1 className="text-center text-[42px] lg:text-[52px] font-bold mx-auto leading-none">
+              <h1 className="hero text-center text-[42px] lg:text-[52px] font-bold mx-auto leading-none">
                 We Build The <br></br> Best{" "}
-                <span className="text-[#A86FF4] font-black ">
+                <span className="hero text-[#A86FF4] font-black ">
                   Digital Solutions
                 </span>
               </h1>
@@ -172,7 +172,7 @@ function LandingPage() {
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <p className="text-[#FF5722]">Services</p>
-          <p className="text-3xl mt-3 font-bold text-[#262424]" id="services">
+          <p className="text-3xl mt-3 text-[#262424] hero" id="services">
             What we do
           </p>
           {/* <SubTitles sub={""} heading={""} colored={""} last={""} /> */}
@@ -269,11 +269,11 @@ function LandingPage() {
                   Process
                 </p>
                 <p
-                  className="leading-none text-[36px] font-bold mt-3 text-center"
+                  className="hero leading-none text-[36px] mt-3 text-center"
                   id="process"
                 >
                   How we{" "}
-                  <span className="text-[#A86FF4] ">
+                  <span className="hero text-[#A86FF4] ">
                     Work<br></br> Together
                   </span>{" "}
                   with you
@@ -478,7 +478,7 @@ function LandingPage() {
         </div>
         <div className="py-8 lg:py-32 bg-[#F6E5D6] px-4 relative">
           <div className="relative">
-            <p className="font-bold text-center text-3xl lg:text-5xl text-[#18171C]">
+            <p className="hero text-center text-3xl lg:text-5xl text-[#18171C]">
               We Can Help You <br></br> Grow and Innovate.
             </p>
             <div className="flex justify-center mt-12">
