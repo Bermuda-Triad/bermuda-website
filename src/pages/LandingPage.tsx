@@ -10,6 +10,11 @@ import WEB from "../assets/images/services/web-dev2.svg"
 import MOBILE from "../assets/images/services/mobile-dev.svg"
 
 
+import Logo1 from "../assets/images/Logos/Daisy.svg"
+import Logo2 from "../assets/images/Logos/mmust.svg"
+import Logo3 from "../assets/images/Logos/tujuane.svg"
+
+
 import Design1 from "../assets/images/designs/Group 1.png";
 import Design2 from "../assets/images/designs/Group 2.png";
 import Design3 from "../assets/images/designs/Group 3.png";
@@ -469,47 +474,52 @@ function LandingPage() {
             </Marquee>
           </div>
         </div>
-        <div className="py-8 lg:py-32 bg-[#F6E5D6] px-4 relative">
-          <div className="relative">
-            <p className="hero text-center text-3xl lg:text-5xl text-[#18171C]">
-              We Can Help You <br></br> Grow and Innovate.
-            </p>
-            <div className="flex justify-center mt-12">
-              <button
-                type="submit"
-                onClick={openModal}
-                className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold"
-              >
-                <p className="text-lg lg:text-xl">Let’s Work Together</p>
-                <div className="text-2xl">
-                  <HiArrowSmRight />
-                </div>
-              </button>
-            </div>
-            <div>
-              <img
-                src={Illustration1}
-                alt=""
-                className="absolute top-0 right-80 hidden lg:block"
-              />
-              <img
-                src={Illustration2}
-                alt=""
-                className="absolute lg:left-80 lg:-top-20 -bottom-30 lg:bottom-0 hidden lg:block"
-              />
-              <img
-                src={Illustration3}
-                alt=""
-                className="absolute right-0 hidden lg:block"
-              />
-              <img
-                src={Illustration4}
-                alt=""
-                className="absolute -bottom-30 hidden lg:block"
-              />
-            </div>
+
+        <div className="bg-[#F6E5D6] py-8 lg:py-32 relative">
+          <p className="hero text-center text-3xl lg:text-5xl text-[#18171C]">
+            Trusted By
+          </p>
+          <div className="flex justify-center gap-10 py-16">
+            <img src={Logo3} alt="" />
+            <img src={Logo2} alt="" />
+            <img src={Logo1} alt="" />
+            <img
+              src={Illustration2}
+              alt=""
+              className="absolute lg:left-80 lg:top-0 -bottom-30 lg:bottom-0 hidden lg:block w-40"
+            />
+            <img
+              src={Illustration3}
+              alt=""
+              className="absolute right-0 hidden lg:block"
+            />
+
+            <img
+              src={Illustration4}
+              alt=""
+              className="absolute left-0 bottom-32 hidden lg:block"
+            />
+            <img
+              src={Illustration1}
+              alt=""
+              className="absolute bottom-0 right-80 hidden lg:block"
+            />
+          </div>
+
+          <div className="flex justify-center mt-12">
+            <button
+              type="submit"
+              onClick={openModal}
+              className="flex gap-2 items-center py-4 px-6 bg-[#A259FF] hover:bg-purple-500 text-white rounded-full font-semibold"
+            >
+              <p className="text-lg lg:text-xl">Let’s Work Together</p>
+              <div className="text-2xl">
+                <HiArrowSmRight />
+              </div>
+            </button>
           </div>
         </div>
+
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
           <div className="flex flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between items-center">
