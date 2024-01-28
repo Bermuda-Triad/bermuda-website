@@ -4,7 +4,7 @@ import Web from "../assets/images/hero/Group 27.svg";
 import Android from "../assets/images/hero/Group 28.svg";
 import PatternOne from "../assets/images/hero/pattern1.svg";
 // import EmojiFire from "../assets/images/emoji_fire.svg";
-import Image from "../assets/images/Logo.svg";
+import Image from "../assets/images/Logo2.svg";
 
 // import Logo1 from "../assets/images/Logos/1.svg";
 // import Logo2 from "../assets/images/Logos/2.svg";
@@ -520,9 +520,9 @@ function LandingPage() {
 
         <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
           <div className="flex flex-col-reverse justify-center gap-10 lg:flex-row lg:justify-between items-center">
-            <img src={Image} alt="" />
+            <img src={Image} alt="" className="w-32" />
             <p className="text-center">
-              © 2023 Bermuda Studio. All Rights Reserved.
+              © 2023 Tarech Studio. All Rights Reserved.
             </p>
             <div className="flex text-3xl gap-2">
               <RiTwitterXFill />
