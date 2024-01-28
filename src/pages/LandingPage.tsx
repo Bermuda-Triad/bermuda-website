@@ -35,7 +35,7 @@ import Design14 from "../assets/images/designs/Group 14.png";
 import Design15 from "../assets/images/designs/Group 15.png";
 
 import Project1 from "../assets/images/projects/TarechStudio/Missing 1.png";
-import Project2 from "../assets/images/projects/TarechStudio/tHUMB 1.png";
+import Project2 from "../assets/images/projects/TarechStudio/corridor.png";
 import Project3 from "../assets/images/projects/TarechStudio/Okoa 2.png";
 import Project4 from "../assets/images/projects/TarechStudio/thumb 1.png";
 import Process from "../assets/images/projects/process.svg";
