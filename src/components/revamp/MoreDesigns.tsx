@@ -21,24 +21,24 @@ const MoreDesigns = () => {
     return (
         <div>
             <Marquee>
-                <img src={Image1} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image2} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image3} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image4} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image5} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image6} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image7} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image8} alt="" className="mx-2 w-56 lg:w-auto" />
+                <img src={Image1} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image2} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image3} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image4} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image5} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image6} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image7} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image8} alt="" className="mx-2 w-72 lg:w-auto" />
             </Marquee>
             <Marquee direction="right" className="mt-4">
-                <img src={Image9} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image10} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image11} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image12} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image13} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image14} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image15} alt="" className="mx-2 w-56 lg:w-auto" />
-                <img src={Image16} alt="" className="mx-2 w-56 lg:w-auto" />
+                <img src={Image9} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image10} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image11} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image12} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image13} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image14} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image15} alt="" className="mx-2 w-72 lg:w-auto" />
+                <img src={Image16} alt="" className="mx-2 w-72 lg:w-auto" />
             </Marquee>
         </div>
     )
