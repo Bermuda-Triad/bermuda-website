@@ -5,12 +5,12 @@ import MoreDesigns from "../components/revamp/MoreDesigns"
 import BigTextOne from "../assets/revamp/others/BigText.svg"
 import ThumbDNF from "../assets/revamp/projects/dnf/ThumbDnf (1).png"
 import ThumbMissing from "../assets/revamp/projects/missing-marks/ThumbMissing 2.png"
-import illustration from "../assets/revamp/others/Illustration.svg"
 import tujengane from "../assets/revamp/Logo/tujengane-logo.svg"
 import dnf from "../assets/revamp/Logo/dnf-logo.svg"
 import user from "../assets/revamp/others/User.svg"
 import Logo from "../assets/revamp/Logo/tarech-final-logo.svg"
 import Stroke2 from "../assets/revamp/others/Stroke2.svg"
+import Process from "../assets/revamp/illustrations/meditating.svg"
 
 
 const LandingPage2 = () => {
@@ -70,7 +70,7 @@ const LandingPage2 = () => {
                 <div>
                     <p className="text-4xl lg:text-6xl font-bold">Recent Work</p>
                     <div className="mt-8 relative">
-                        <img src={ThumbDNF} alt="" className="" />
+                        <img src={ThumbDNF} alt="" className="w-full" />
                         <div className="lg:w-[436px] lg:p-6 lg:bg-[#09CF83] rounded-xl lg:absolute lg:left-[2%] lg:bottom-[4%] mt-4">
                             <p className="lg:text-[#18171C] text-sm lg:text-base font-semibold pb-2">2024</p>
                             <p className="lg:text-[#18171C] text-3xl lg:text-[28px] font-semibold leading-none">Daisy Nyongesa Foundation Website.</p>
@@ -117,7 +117,7 @@ const LandingPage2 = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-white">
+            {/* <section className="bg-white">
                 <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20">
                     <div className="grid lg:grid-cols-2 items-center">
                         <div className="lg:w-4/5">
@@ -153,6 +153,126 @@ const LandingPage2 = () => {
                     <div className="pt-16 lg:pt-32 font-bold">
                         <p className="text-center text-4xl lg:text-6xl text-[#18171C] font-bold">Trusted By</p>
                         <div className="flex gap-8 lg:gap-10 items-center justify-center pt-8 lg:pt-16">
+                            <img src={tujengane} alt="" className="w-32 lg:w-auto" />
+                            <img src={dnf} alt="" className="w-40 lg:w-auto" />
+                        </div>
+                    </div>
+                </div>
+            </section> */}
+
+            <section className="bg-white">
+                <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+                    <div>
+                        <div>
+                            <div className="flex justify-center">
+                                <p className="lg:w-1/2 text-center text-[#18171C] text-4xl lg:text-6xl font-bold">How we Work <span className="text-[#09CF83]"> Together</span> with you.</p>
+                            </div>
+                            <div className="mt-16">
+                                <div className="lg:grid grid-cols-3 gap-10 items-center hidden">
+                                    <div>
+                                        <div className="flex items-center gap-5">
+                                            <p className="font-bold text-[96px] text-[#18171C]">1</p>
+                                            <p className="text-[#18171C]">
+                                                <span className="text-[#18171C] font-bold">
+                                                    Brief/Short Details:{" "}
+                                                </span>
+                                                Come to us with a project brief or short project details
+                                                that you have currently to give us an idea of your
+                                                project or product.
+                                            </p>
+                                        </div>
+                                        <div className="flex items-center gap-4">
+                                            <p className="font-bold text-[96px] text-[#18171C]">3</p>
+                                            <p className="text-[#18171C]">
+                                                <span className="text-[#18171C] font-bold">
+                                                    Providing Quote:{" "}
+                                                </span>
+                                                We will be providing you a quote for the project after
+                                                having the answers from you.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="lg:flex justify-center">
+                                        <img src={Process} alt="" className="" />
+                                    </div>
+                                    <div>
+                                        <div className="flex items-center gap-5">
+                                            <p className="font-bold text-[96px] text-[#18171C]">2</p>
+                                            <p className="text-[16px] text-[#18171C]">
+                                                <span className="text-[#18171C] font-bold">
+                                                    Questions:{" "}
+                                                </span>
+                                                After having the details from you, we'll ask questions
+                                                related to your project to understand the project length
+                                                and scope.
+                                            </p>
+                                        </div>
+                                        <div className="flex items-center gap-4">
+                                            <p className="font-bold text-[96px] text-[#18171C]">4</p>
+                                            <p className="text-[#18171C]">
+                                                <span className="text-[#18171C] font-bold">
+                                                    Get Started:{" "}
+                                                </span>
+                                                If the quote works for both of us, we can have a short
+                                                meeting or we can directly jump into the process of
+                                                getting started.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="grid grid-cols-1 lg:gap-4 items-center lg:hidden">
+                                    <div>
+                                        <div className="flex items-center gap-5">
+                                            <p className="font-bold text-[96px] text-[#18171C]">1</p>
+                                            <p className="text-[#18171C]">
+                                                <span className="text-[#18171C] font-bold">
+                                                    Brief/Short Details:{" "}
+                                                </span>
+                                                Come to us with a project brief or short project details
+                                                that you have currently to give us an idea of your
+                                                project or product.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-5">
+                                        <p className="font-bold text-[96px] text-[#18171C]">2</p>
+                                        <p className="text-[16px] text-[#18171C]">
+                                            <span className="text-[#18171C] font-bold">Questions: </span>
+                                            After having the details from you, we'll ask questions
+                                            related to your project to understand the project length
+                                            and scope.
+                                        </p>
+                                    </div>
+                                    <div className="flex items-center gap-4">
+                                        <p className="font-bold text-[96px] text-[#18171C]">3</p>
+                                        <p className="text-[#18171C]">
+                                            <span className="text-[#18171C] font-bold">
+                                                Providing Quote:{" "}
+                                            </span>
+                                            We will be providing you a quote for the project after
+                                            having the answers from you.
+                                        </p>
+                                    </div>
+
+                                    <div className="flex items-center gap-4">
+                                        <p className="font-bold text-[96px] text-[#18171C]">4</p>
+                                        <p className="text-[#18171C]">
+                                            <span className="text-[#18171C] font-bold">
+                                                Get Started:{" "}
+                                            </span>
+                                            If the quote works for both of us, we can have a short
+                                            meeting or we can directly jump into the process of
+                                            getting started.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="p-16 lg:pt-56 font-bold">
+                        <p className="text-center text-4xl text-[#18171C] font-bold">Trusted By</p>
+                        <div className="flex gap-8 lg:gap-10 items-center justify-center pt-8 ">
                             <img src={tujengane} alt="" className="w-32 lg:w-auto" />
                             <img src={dnf} alt="" className="w-40 lg:w-auto" />
                         </div>
