@@ -115,6 +115,11 @@ const LandingPage2 = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="flex justify-center">
+                        <a className="flex px-6 py-3 bg-[#dcdcdc] rounded-full gap-2 mt-4 lg:my-10">
+                            <p className="text-[#18171C] font-semibold">More (Comming Soon)</p>
+                        </a>
+                    </div>
                 </div>
             </section>
             {/* <section className="bg-white">
