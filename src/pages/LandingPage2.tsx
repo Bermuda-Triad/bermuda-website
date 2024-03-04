@@ -3,8 +3,8 @@ import NavBar from "../components/revamp/NavBar"
 import spin from "../assets/revamp/Logo/spin.svg"
 import MoreDesigns from "../components/revamp/MoreDesigns"
 import BigTextOne from "../assets/revamp/others/BigText.svg"
-import ThumbDNF from "../assets/revamp/projects/dnf/dnf-thumb.png"
-import ThumbMissing from "../assets/revamp/projects/missing-marks/missing-thumb.png"
+import ThumbDNF from "../assets/revamp/projects/dnf/ThumbDnf (1).png"
+import ThumbMissing from "../assets/revamp/projects/missing-marks/ThumbMissing 2.png"
 import illustration from "../assets/revamp/others/Illustration.svg"
 import tujengane from "../assets/revamp/Logo/tujengane-logo.svg"
 import dnf from "../assets/revamp/Logo/dnf-logo.svg"
@@ -48,15 +48,15 @@ const LandingPage2 = () => {
                         </div>
                         <div className="col-span-2">
                             <div className="grid lg:grid-cols-2 gap-10">
-                                <div className="lg:p-6 lg:hover:bg-[#09CF83] rounded-xl transition delay-75 ease-in-out">
+                                <div className="lg:p-6 rounded-xl transition delay-75 ease-in-out">
                                     <p className="text-[#18171C] text-base lg:text-[24px] font-bold pb-2 lg:pb-4">Web Development</p>
                                     <p className="text-[#18171C] text-sm lg:text-base">Web development is the art of creating websites. It's like building a house, but on the internet!😎. Web developers use special tools and languages to design and construct web pages, making sure they look great, work smoothly, and provide the information or services you and your business need.</p>
                                 </div>
-                                <div className="lg:p-6 lg:hover:bg-[#09CF83] rounded-xl transition delay-75 ease-in-out">
+                                <div className="lg:p-6 rounded-xl transition delay-75 ease-in-out">
                                     <p className="text-[#18171C] text-base lg:text-[24px] font-bold pb-2 lg:pb-4">UI/UX Design</p>
                                     <p className="text-[#18171C] text-sm lg:text-base"> UI/UX design is like the magic that makes websites and apps easy to use and beautiful to look at. It's about creating buttons, menus, and screens that feel intuitive and look appealing. UI (User Interface) focuses on how things appear, while UX (User Experience) is about how easy and enjoyable it is to use the website or app. It's like making sure everything is user-friendly and visually pleasing, just like arranging furniture in a cozy room.</p>
                                 </div>
-                                <div className="lg:p-6 lg:hover:bg-[#09CF83] rounded-xl transition delay-75 ease-in-out">
+                                <div className="lg:p-6 rounded-xl transition delay-75 ease-in-out">
                                     <p className="text-[#18171C] text-base lg:text-[24px] font-bold pb-2 lg:pb-4">App Development</p>
                                     <p className="text-[#18171C] text-sm lg:text-base">App development is the creative process of building digital programs that run on your mobile devices, such as smartphones and tablets. App developers use coding languages to craft software that can perform a wide range of tasks, from games and social networking to organizing your to-do lists or helping you shop online. It's about bringing your ideas to life and making them accessible with a tap of your finger.</p>
                                 </div>
