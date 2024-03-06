@@ -5,21 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
-    /* font-family: 'Inter', sans-serif; */
-    /* background-color: #18171C; */
     color: #FFFFFF;
     scroll-behavior: smooth;
-    /* font-family: "Inter", sans-serif; */
     font-family: "Lato", sans-serif;
 }
 
 .hero {
     font-family: 'Titan One', sans-serif;
 }
-
-/* .landing-page-two {
-    
-} */
 
 .hero2 {
     font-family: "Montserrat", sans-serif;

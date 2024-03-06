@@ -10,6 +10,7 @@ import dnf from "../assets/revamp/Logo/dnf-logo.svg"
 import user from "../assets/revamp/others/User.svg"
 import Process from "../assets/revamp/illustrations/meditating.svg"
 import { Link } from "react-router-dom"
+import Daisy from "../assets/revamp/testimonials/founder.png"
 import Footer from "../components/revamp/Footer"
 
 
@@ -258,18 +259,18 @@ const LandingPage2 = () => {
                                 <div className="flex gap-4">
                                     <img src={user} alt="" className="w-12" />
                                     <div>
-                                        <p>Hellena John</p>
-                                        <p>Co-founder</p>
+                                        <p>Raj </p>
+                                        <p>Founder, Tujengane Marketing Agency</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300 my-4 lg:my-0">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
-                                    <img src={user} alt="" className="w-12" />
+                                    <img src={Daisy} alt="" className="w-12" />
                                     <div>
-                                        <p>Hellena John</p>
-                                        <p>Co-founder</p>
+                                        <p>Daisy Nyongesa</p>
+                                        <p>Former Senetor, Founder, DNF Foundation</p>
                                     </div>
                                 </div>
                             </div>
