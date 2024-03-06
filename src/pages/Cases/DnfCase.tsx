@@ -5,6 +5,7 @@ import Hero from "../../assets/revamp/projects/dnf/dnf-hero (1).png"
 import HeroMobile from "../../assets/revamp/projects/dnf/dnf-hero-mobile (1).png"
 import BodyOne from "../../assets/revamp/projects/dnf/dnf-body-one (1).png"
 import Pallet from "../../assets/revamp/projects/dnf/dnf-color-pallet.svg"
+import Prototype from "../../assets/revamp/projects/dnf/dng-prototype (1).png"
 import WireFrame from "../../assets/revamp/projects/dnf/dnf-wirefrme.svg"
 import Footer from "../../components/revamp/Footer"
 
@@ -63,6 +64,24 @@ const DnfCase = () => {
                     <div className="flex flex-col lg:justify-end lg:items-end lg:pt-32">
                         <p className="lg:w-1/3 lg:text-right"><span className="font-bold lg:text-right">Wireframes and prototypes</span>  were created to visualize the website's structure and functionality. This stage allowed for feedback and iteration before moving into full-scale development.</p>
                         <img src={WireFrame} alt="" className="py-4" />
+                    </div>
+                </div>
+            </section>
+            <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-32">
+                <div>
+                    <div className="mb-8">
+                        <p className="lg:w-1/3 text-[#18171C] mb-4">Leveraging modern web development technologies, the website was built to be responsive, user-friendly, and scalable.</p>
+                        <a href="" className="underline text-[#CC9931]">View Live</a>
+                    </div>
+                    <img src={Prototype} alt="" />
+                </div>
+                <div className="py-16">
+                    <p className="hero2 text-[#18171C] text-4xl font-bold">Impact</p>
+                    <p className="text-2xl lg:text-[40px] text-[#18171C] lg:leading-[50px] mt-4">The launch of the Daisy Nyongesa Foundation website marked a significant milestone in the organization's efforts to connect with its audience and drive positive change. Key outcomes include:</p>
+                    <div className="mt-8">
+                        <li className="text-[#18171C] text-lg py-1">Increased visibility and awareness of the foundation's initiatives</li>
+                        <li className="text-[#18171C] text-lg py-1">Improved engagement with stakeholders, including donors, volunteers, and beneficiaries</li>
+                        <li className="text-[#18171C] text-lg py-1">Empowerment of youth and women to actively participate in community development efforts</li>
                     </div>
                 </div>
             </section>
