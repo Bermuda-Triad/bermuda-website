@@ -23,12 +23,15 @@ const LandingPage2 = () => {
                     <h1 className="hero2 text-5xl lg:text-[78px] lg:leading-[70px] font-bold lg:font-extrabold lg:w-4/5 lg:tracking-wide">Empowering Digital Potential for Growing Businesses.</h1>
                     <p className="mt-32 lg:mt-28 lg:w-1/3 text-sm lg:text-base">Our main focus in Web Development ,App Development & UX/UI Design is to create tailored solutions that align with our clients' business goals and effectively address their user’s needs.</p>
                     <div className="flex ">
-                        <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 mt-4 lg:my-10 hover:translate-x-2 transform duration-300">
-                            <span className="text-[#18171C] font-semibold">Start a Project</span>
-                            <span>
-                                <ForwardIconDark />
-                            </span>
-                        </a>
+                        <Link to="/contact">
+                            <div className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 mt-4 lg:my-10 hover:translate-x-2 transform duration-300">
+                                <span className="text-[#18171C] font-semibold">Start a Project</span>
+                                <span>
+                                    <ForwardIconDark />
+                                </span>
+                            </div>
+                        </Link>
+
                     </div>
                     <img src={spin} alt="" className="absolute right-4 bottom-[30%] lg:bottom-0 lg:right-28 lg:top-72 animate-[spin_10s_linear_infinite] w-20 lg:w-auto" />
                 </div>

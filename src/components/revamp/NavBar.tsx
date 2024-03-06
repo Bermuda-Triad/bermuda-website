@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Logo from "../../assets/revamp/Logo/Logo-light.svg"
 import Logo2 from "../../assets/revamp/Logo/tarech-final-logo.svg"
 import { ForwardIcon, ForwardIconDark } from "./Icons"
@@ -10,6 +11,9 @@ const NavBar = () => {
                     <img src={Logo2} alt="" className="w-28 lg:w-32 " />
                     <div className="flex items-center gap-24">
                         <div className="lg:flex gap-6 hidden">
+                            <a href="/" className="hover:text-[#09CF83]">
+                                Home
+                            </a>
                             <a href="#services" className="hover:text-[#09CF83]">
                                 Services
                             </a>
@@ -20,10 +24,13 @@ const NavBar = () => {
                                 Process
                             </a>
                         </div>
-                        <a href="" className="flex items-center gap-2 hover:translate-x-2 transform duration-300">
-                            <p className="hover:text-[#09CF83]">Let's Talk</p>
-                            <ForwardIcon />
-                        </a>
+                        <Link to="/contact">
+                            <div className="flex items-center gap-2 hover:translate-x-2 transform duration-300">
+                                <p className="hover:text-[#09CF83]">Let's Talk</p>
+                                <ForwardIcon />
+                            </div>
+                        </Link>
+
                     </div>
                 </div>
             </div>
@@ -43,6 +50,9 @@ export const CaseNavBar = () => {
                     <img src={Logo} alt="" className="w-28 lg:w-32 " />
                     <div className="flex items-center gap-24">
                         <div className="lg:flex gap-6 hidden">
+                            <a href="/" className="hover:text-[#09CF83] text-[#18171C]">
+                                Home
+                            </a>
                             <a href="#services" className="hover:text-[#09CF83] text-[#18171C]">
                                 Services
                             </a>
@@ -53,10 +63,13 @@ export const CaseNavBar = () => {
                                 Process
                             </a>
                         </div>
-                        <a href="" className="flex items-center gap-2 hover:-translate-y-2 transform duration-300">
-                            <p className="hover:text-[#09CF83] text-[#18171C]">Let's Talk</p>
-                            <ForwardIconDark />
-                        </a>
+                        <Link to="/contact">
+                            <div className="flex items-center gap-2 hover:-translate-y-2 transform duration-300">
+                                <p className="hover:text-[#09CF83] text-[#18171C]">Let's Talk</p>
+                                <ForwardIconDark />
+                            </div>
+                        </Link>
+
                     </div>
                 </div>
             </div>
