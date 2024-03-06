@@ -65,7 +65,7 @@ export const sendMail = () => {
             document.getElementById("userName").value = "";
             document.getElementById("email").value = "";
             document.getElementById("message").value = "";
-            alert("Your message sent successfully!!");
+            alert("Your message sent successfully!! Check your email for our reply");
             console.log("success")
         })
         .catch(err => console.log(err));
