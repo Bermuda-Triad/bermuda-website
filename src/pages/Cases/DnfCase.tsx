@@ -18,8 +18,8 @@ const DnfCase = () => {
             <div className="">
                 <div className="grid lg:grid-cols-2 items-center">
                     <div className="lg:ml-28 p-4 lg:p-0 ">
-                        <Link to="/">
-                            <div className="flex items-center gap-2">
+                        <Link to="/" className="flex">
+                            <div className="flex items-center gap-2 hover:bg-gray-100 p-1 rounded-full">
                                 <span>
                                     <ArrowBack />
                                 </span>
@@ -31,7 +31,7 @@ const DnfCase = () => {
                             <p className="text-[#18171C] mt-4 mb-8">Daisy Nyongesa Foundation seeks to address societal needs. This is after identifying the existing gaps in the 24
                                 constituencies of Western Kenya and analyzing the best approach in mitigating them. We are dedicated to empowering
                                 youth and women through Education, Mentorship and Leadership, fostering a future where every voice leads and inspires.</p>
-                            <a href="" className="underline text-[#CC9931]">View Live</a>
+                            <a href="https://daisynyongesafoundation.org/" className="underline text-[#CC9931]">View Live</a>
                             <div className="mt-8">
                                 <div>
                                     <p className="py-4"><span className="text-[#707070] pr-4">Services:</span> <span className="text-[#18171C] font-semibold">UI/UX Design, Web Development</span></p>
@@ -71,7 +71,7 @@ const DnfCase = () => {
                 <div>
                     <div className="mb-8">
                         <p className="lg:w-1/3 text-[#18171C] mb-4">Leveraging modern web development technologies, the website was built to be responsive, user-friendly, and scalable.</p>
-                        <a href="" className="underline text-[#CC9931]">View Live</a>
+                        <a href="https://daisynyongesafoundation.org/" className="underline text-[#CC9931]">View Live</a>
                     </div>
                     <img src={Prototype} alt="" />
                 </div>

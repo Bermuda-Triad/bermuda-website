@@ -20,7 +20,7 @@ const NavBar = () => {
                                 Process
                             </a>
                         </div>
-                        <a href="" className="flex items-center gap-2">
+                        <a href="" className="flex items-center gap-2 hover:translate-x-2 transform duration-300">
                             <p className="hover:text-[#09CF83]">Let's Talk</p>
                             <ForwardIcon />
                         </a>
@@ -53,7 +53,7 @@ export const CaseNavBar = () => {
                                 Process
                             </a>
                         </div>
-                        <a href="" className="flex items-center gap-2 ">
+                        <a href="" className="flex items-center gap-2 hover:-translate-y-2 transform duration-300">
                             <p className="hover:text-[#09CF83] text-[#18171C]">Let's Talk</p>
                             <ForwardIconDark />
                         </a>

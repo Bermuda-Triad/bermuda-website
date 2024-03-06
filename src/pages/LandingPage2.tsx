@@ -22,9 +22,11 @@ const LandingPage2 = () => {
                     <h1 className="hero2 text-5xl lg:text-[78px] lg:leading-[70px] font-bold lg:font-extrabold lg:w-4/5 lg:tracking-wide">Empowering Digital Potential for Growing Businesses.</h1>
                     <p className="mt-32 lg:mt-28 lg:w-1/3 text-sm lg:text-base">Our main focus in Web Development ,App Development & UX/UI Design is to create tailored solutions that align with our clients' business goals and effectively address their user’s needs.</p>
                     <div className="flex ">
-                        <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 mt-4 lg:my-10">
-                            <p className="text-[#18171C] font-semibold">Start a Project</p>
-                            <ForwardIconDark />
+                        <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 mt-4 lg:my-10 hover:translate-x-2 transform duration-300">
+                            <span className="text-[#18171C] font-semibold">Start a Project</span>
+                            <span>
+                                <ForwardIconDark />
+                            </span>
                         </a>
                     </div>
                     <img src={spin} alt="" className="absolute right-4 bottom-[30%] lg:bottom-0 lg:right-28 lg:top-72 animate-[spin_10s_linear_infinite] w-20 lg:w-auto" />
@@ -34,15 +36,17 @@ const LandingPage2 = () => {
                 <MoreDesigns />
             </section>
             <section className="bg-white ">
-                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20">
+                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20" id="services">
                     <div className="grid lg:grid-cols-3 gap-10">
                         <div>
                             <p className="hero2 text-[#18171C] text-4xl lg:text-6xl font-bold ">Services</p>
                             <p className="text-[#18171C] py-3 lg:py-10 lg:w-3/4">Professional solutions tailored to your business's needs.</p>
                             <div className="flex">
-                                <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2">
-                                    <p className="text-[#18171C] font-medium">Start a Project</p>
-                                    <ForwardIconDark />
+                                <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
+                                    <span className="text-[#18171C] font-medium">Start a Project</span>
+                                    <span>
+                                        <ForwardIconDark />
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -66,7 +70,7 @@ const LandingPage2 = () => {
                 </div>
                 <img src={BigTextOne} alt="" className="lg:mt-16 hidden lg:block" />
             </section>
-            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20">
+            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20" id="projects">
                 <div>
                     <p className="hero2 text-4xl lg:text-6xl font-bold">Recent Work</p>
                     <div className="mt-8 relative">
@@ -81,7 +85,7 @@ const LandingPage2 = () => {
                             <p className="py-6 lg:text-[#18171C] text-sm">Daisy Nyongesa Foundation seeks to address societal needs. This is after identifying the existing gaps ... <span className="font-bold lg:text-[#18171C]">Read More</span></p>
                             <div className="flex">
                                 <Link to="/dnf-website" >
-                                    <a className="flex items-center px-6 py-3 bg-[#09CF83] lg:bg-[#18171C] rounded-full gap-2">
+                                    <a className="flex items-center px-6 py-3 bg-[#09CF83] lg:bg-[#18171C] rounded-full gap-2 hover:translate-x-2 transform duration-300">
                                         <span className="font-semibold text-[#18171C] lg:text-white text-sm leading-none">View Project</span>
                                         <span className="hidden lg:block">
                                             <ForwardIcon />
@@ -106,70 +110,27 @@ const LandingPage2 = () => {
                             </div>
                             <p className="py-6 lg:text-[#18171C] text-sm">Daisy Nyongesa Foundation seeks to address societal needs. This is after identifying the existing gaps ... <span className="font-bold lg:text-[#18171C]">Read More</span></p>
                             <div className="flex">
-                                <a href="" className="flex items-center px-6 py-3 bg-[#09CF83] lg:bg-[#18171C] rounded-full gap-2">
-                                    <p className="font-semibold text-[#18171C] lg:text-white text-sm leading-none">View Project</p>
-                                    <div className="hidden lg:block">
+                                <a href="" className="flex items-center px-6 py-3 bg-[#09CF83] lg:bg-[#18171C] rounded-full gap-2 hover:translate-x-2 transform duration-300">
+                                    <span className="font-semibold text-[#18171C] lg:text-white text-sm leading-none">View Project</span>
+                                    <span className="hidden lg:block">
                                         <ForwardIcon />
-                                    </div>
-                                    <div className="lg:hidden">
+                                    </span>
+                                    <span className="lg:hidden">
                                         <ForwardIconDark />
-                                    </div>
+                                    </span>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className="flex justify-center">
                         <a className="flex px-6 py-3 bg-[#dcdcdc] rounded-full gap-2 mt-4 lg:my-10">
-                            <p className="text-[#18171C] font-semibold">More (Comming Soon)</p>
+                            <span className="text-[#18171C] font-semibold">More (Comming Soon)</span>
                         </a>
                     </div>
                 </div>
             </section>
-            {/* <section className="bg-white">
-                <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20">
-                    <div className="grid lg:grid-cols-2 items-center">
-                        <div className="lg:w-4/5">
-                            <div>
-                                <p className="text-[#18171C] text-4xl lg:text-6xl font-bold">How we Work Together with you.</p>
-                                <div className="flex items-start gap-4 my-8">
-                                    <p className="text-[#18171C] text-5xl font-bold leading-none">1</p>
-                                    <p className="text-[#18171C]"><span className="text-[#18171C] font-bold">Brief/Short Details:</span> Come to us with a project brief or short project details that you have currently to give us an idea of your project or product.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="flex items-start gap-4 my-8">
-                                    <p className="text-[#18171C] text-5xl font-bold leading-none">2</p>
-                                    <p className="text-[#18171C]"><span className="text-[#18171C] font-bold">Questions:</span> After having the details from you, we'll ask questions related to your project to understand the project length and scope.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="flex items-start gap-4 my-8">
-                                    <p className="text-[#18171C] text-5xl font-bold leading-none">3</p>
-                                    <p className="text-[#18171C]"><span className="text-[#18171C] font-bold">Providing Quote:</span> We will be providing you a quote for the project after having the answers from you.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="flex items-start gap-4 my-8">
-                                    <p className="text-[#18171C] text-5xl font-bold leading-none">4</p>
-                                    <p className="text-[#18171C]"><span className="text-[#18171C] font-bold">Get Started:</span>  If the quote works for both of us, we can have a short meeting or we can directly jump into the process of getting started.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <img src={illustration} alt="" className="hidden lg:block" />
-                    </div>
-                    <div className="pt-16 lg:pt-32 font-bold">
-                        <p className="text-center text-4xl lg:text-6xl text-[#18171C] font-bold">Trusted By</p>
-                        <div className="flex gap-8 lg:gap-10 items-center justify-center pt-8 lg:pt-16">
-                            <img src={tujengane} alt="" className="w-32 lg:w-auto" />
-                            <img src={dnf} alt="" className="w-40 lg:w-auto" />
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-
             <section className="bg-white">
-                <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+                <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24" id="process">
                     <div>
                         <div>
                             <div className="flex justify-center">
@@ -292,7 +253,7 @@ const LandingPage2 = () => {
                     <div>
                         <p className="text-center text-4xl lg:text-6xl font-bold hero2">Words from our Clients</p>
                         <div className="lg:flex lg:gap-10 py-16">
-                            <div className=" p-6 border rounded-xl border-[#3a3a3b]">
+                            <div className=" p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
                                     <img src={user} alt="" className="w-12" />
@@ -302,7 +263,7 @@ const LandingPage2 = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="p-6 border rounded-xl border-[#3a3a3b]">
+                            <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300 my-4 lg:my-0">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
                                     <img src={user} alt="" className="w-12" />
@@ -312,7 +273,7 @@ const LandingPage2 = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="p-6 border rounded-xl border-[#3a3a3b]">
+                            <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
                                     <img src={user} alt="" className="w-12" />
@@ -323,17 +284,6 @@ const LandingPage2 = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="py-16">
-                    <div className="flex justify-center">
-                        <p className="lg:w-1/2 text-center text-4xl lg:text-6xl font-bold hero2">We Can Help You Grow and Innovate.</p>
-                    </div>
-                    <div className="flex justify-center">
-                        <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 mt-4 lg:my-10">
-                            <p className="text-[#18171C] font-semibold">Start a Project</p>
-                            <ForwardIconDark />
-                        </a>
                     </div>
                 </div>
             </section>
