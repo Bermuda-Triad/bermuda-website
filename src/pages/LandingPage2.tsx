@@ -12,6 +12,7 @@ import Process from "../assets/revamp/illustrations/meditating.svg"
 import { Link } from "react-router-dom"
 import Daisy from "../assets/revamp/testimonials/founder.png"
 import Footer from "../components/revamp/Footer"
+import Marquee from "react-fast-marquee"
 
 
 const LandingPage2 = () => {
@@ -45,7 +46,7 @@ const LandingPage2 = () => {
                         <div>
                             <p className="hero2 text-[#18171C] text-4xl lg:text-6xl font-bold ">Services</p>
                             <p className="text-[#18171C] py-3 lg:py-10 lg:w-3/4">Professional solutions tailored to your business's needs.</p>
-                            <div className="flex">
+                            <div className="lg:flex hidden">
                                 <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
                                     <span className="text-[#18171C] font-medium">Start a Project</span>
                                     <span>
@@ -68,6 +69,14 @@ const LandingPage2 = () => {
                                     <p className="hero2 text-[#18171C] text-base lg:text-[24px] font-bold pb-2 lg:pb-4">App Development</p>
                                     <p className="text-[#18171C] text-sm lg:text-base">App development is the creative process of building digital programs that run on your mobile devices, such as smartphones and tablets. App developers use coding languages to craft software that can perform a wide range of tasks, from games and social networking to organizing your to-do lists or helping you shop online. It's about bringing your ideas to life and making them accessible with a tap of your finger.</p>
                                 </div>
+                            </div>
+                            <div className="flex lg:hidden pt-8">
+                                <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
+                                    <span className="text-[#18171C] font-medium">Work With Us</span>
+                                    <span>
+                                        <ForwardIconDark />
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -126,13 +135,19 @@ const LandingPage2 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                         <a className="flex px-6 py-3 bg-[#dcdcdc] rounded-full gap-2 mt-4 lg:my-10">
                             <span className="text-[#18171C] font-semibold">More (Comming Soon)</span>
                         </a>
-                    </div>
+                    </div> */}
+
                 </div>
             </section>
+            <div className="pt-16">
+                <Marquee>
+                    <p className="uppercase text-4xl lg:text-7xl font-bold hero2 opacity-25 text-[#09CF83]">More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon ** </p>
+                </Marquee>
+            </div>
             <section className="bg-white">
                 <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24" id="process">
                     <div>
@@ -260,7 +275,7 @@ const LandingPage2 = () => {
                             <div className=" p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
-                                    <img src={user} alt="" className="w-12" />
+                                    <img src={user} alt="" className="w-12 h-12" />
                                     <div>
                                         <p>Raj </p>
                                         <p>Founder, Tujengane Marketing Agency</p>
@@ -270,7 +285,7 @@ const LandingPage2 = () => {
                             <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300 my-4 lg:my-0">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
-                                    <img src={Daisy} alt="" className="w-12" />
+                                    <img src={Daisy} alt="" className="w-12 h-12" />
                                     <div>
                                         <p>Daisy Nyongesa</p>
                                         <p>Former Senetor, Founder, DNF Foundation</p>
@@ -280,7 +295,7 @@ const LandingPage2 = () => {
                             <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
                                 <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
                                 <div className="flex gap-4">
-                                    <img src={user} alt="" className="w-12" />
+                                    <img src={user} alt="" className="w-12 h-12" />
                                     <div>
                                         <p>Hellena John</p>
                                         <p>Co-founder</p>

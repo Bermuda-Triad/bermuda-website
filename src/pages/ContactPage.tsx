@@ -1,8 +1,9 @@
 import Logo from "../assets/revamp/Logo/tarech-final-logo.svg"
 import Stroke2 from "../assets/revamp/others/Stroke2.svg"
-import { Twitter, LinkedIn, Instagram } from "../components/revamp/Icons"
+import { Twitter, LinkedIn, Instagram, ArrowBackDark } from "../components/revamp/Icons"
 import Illustration from "../assets/revamp/illustrations/ContactIllustration.svg"
 import { sendMail } from "../SendEmail"
+import { Link } from "react-router-dom"
 
 const ContactPage = () => {
     const handleSubmit = (e: React.FormEvent) => {
@@ -15,10 +16,18 @@ const ContactPage = () => {
         <div className="bg-[#18171C]">
             {/* <NavBar /> */}
             <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <Link to="/" className="flex mb-8">
+                    <div className="flex items-center gap-2  rounded-full">
+                        <span>
+                            <ArrowBackDark />
+                        </span>
+                        <span className="underline hover:text-[#09CF83]">Back Home</span>
+                    </div>
+                </Link>
                 <div className="grid lg:grid-cols-2">
                     <div>
-                        <p className="text-6xl hero2">Let's Talk</p>
-                        <img src={Illustration} alt="" className="pr-20 mt-16 w-full" />
+                        <p className="text-4xl font-bold lg:text-6xl hero2 text-center lg:text-left">Let's Talk</p>
+                        <img src={Illustration} alt="" className="py-8 lg:pr-20 lg:mt-16 w-full px-10" />
                     </div>
                     <div>
                         <form className="md:col-span-2 text-white" id="contact_form" onSubmit={handleSubmit}>
@@ -118,7 +127,9 @@ const ContactPage = () => {
                     <div>
                         <div className="flex justify-between gap-10">
                             <div className="flex justify-center lg:justify-normal">
-                                <img src={Logo} alt="" className="w-32" />
+                                <Link to="/" >
+                                    <img src={Logo} alt="" className="w-28 lg:w-32 " />
+                                </Link>
                             </div>
                             <div className="lg:hidden">
                                 <div className="flex items-center gap-2 justify-center lg:justify-normal">

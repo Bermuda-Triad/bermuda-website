@@ -26,7 +26,9 @@ const Footer = () => {
                     <div>
                         <div className="flex justify-between gap-10">
                             <div className="flex justify-center lg:justify-normal">
-                                <img src={Logo} alt="" className="w-32" />
+                                <Link to="/" >
+                                    <img src={Logo} alt="" className="w-28 lg:w-32 " />
+                                </Link>
                             </div>
                             <div className="lg:hidden">
                                 <div className="flex items-center gap-2 justify-center lg:justify-normal">
