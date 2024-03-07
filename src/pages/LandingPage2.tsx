@@ -270,13 +270,15 @@ const LandingPage2 = () => {
                     </div>
                 </div>
             </section>
-            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-10 lg:py-20">
+            <section className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 pt-10 lg:py-20">
                 <div>
                     <div>
                         <p className="text-center text-4xl lg:text-6xl font-bold hero2">Words from our Clients</p>
                         <div className="lg:flex lg:gap-10 py-16">
-                            <div className=" p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
-                                <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
+                            <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
+                                <p className="mb-4">
+                                    " We're incredibly grateful to Tarech Studio for their invaluable assistance. Their team's dedication, professionalism, and expertise made all the difference in achieving our goals."
+                                </p>
                                 <div className="flex gap-4">
                                     <img src={user} alt="" className="w-12 h-12" />
                                     <div>
@@ -285,26 +287,28 @@ const LandingPage2 = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="mt-2 lg:mt-0 p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
+                                <p className="mb-4">"👏 Heartfelt thanks to the team for their outstanding service and expertise."</p>
+                                <div className="flex gap-4">
+                                    {/* <img src={ } alt="" className="w-12 h-12" /> */}
+                                    <div className="w-12 h-12 bg-black rounded-full"></div>
+                                    <div>
+                                        <p>Simon Mbuvi</p>
+                                        <p>Business Owner</p>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300 my-4 lg:my-0">
-                                <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
+                                <p className="mb-4">"Working with this team is amazing 🎉 . They delivered beyond our expectations, and the results speak for themselves. Grateful for their expertise and dedication!"</p>
                                 <div className="flex gap-4">
                                     <img src={Daisy} alt="" className="w-12 h-12" />
                                     <div>
-                                        <p>Daisy Nyongesa</p>
-                                        <p>Former Senetor, Founder, DNF Foundation</p>
+                                        <p>Daisy Nyongesa, Former Senetor</p>
+                                        <p> Founder, DNF Foundation</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="p-6 border rounded-xl border-[#3a3a3b] hover:-translate-y-2 transform duration-300">
-                                <p className="mb-4">Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla. Lacus, ut congue sagittis vel nisi integer imperdiet a vitae.</p>
-                                <div className="flex gap-4">
-                                    <img src={user} alt="" className="w-12 h-12" />
-                                    <div>
-                                        <p>Hellena John</p>
-                                        <p>Co-founder</p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
