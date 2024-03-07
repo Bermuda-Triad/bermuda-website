@@ -46,16 +46,16 @@ const Footer = () => {
 
                             <p className="text-center hidden lg:block">© Copyright 2024 Tarech Studio. All Rights Reserved.</p>
                             <div className="hidden lg:block">
-                                <div className="flex items-center gap-2 justify-center lg:justify-normal">
-                                    <a href="">
+                                <div className="flex items-center gap-2 justify-center lg:justify-normal opacity-10">
+                                    <p >
                                         <Twitter />
-                                    </a>
-                                    <a href="">
+                                    </p>
+                                    <p >
                                         <LinkedIn />
-                                    </a>
-                                    <a href="">
+                                    </p>
+                                    <p>
                                         <Instagram />
-                                    </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
