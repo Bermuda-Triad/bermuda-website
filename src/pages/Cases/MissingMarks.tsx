@@ -8,14 +8,14 @@ import ItemThree from "../../assets/revamp/projects/missing-marks/Element-three.
 import Wireframe from "../../assets/revamp/projects/missing-marks/MissingWireframe.png"
 import ProtoOne from "../../assets/revamp/projects/missing-marks/Proto-one (1).png"
 import ProtoTwo from "../../assets/revamp/projects/missing-marks/proto-two (2).png"
-import { CaseNavBar } from "../../components/revamp/NavBar"
+import { NoLinksNavBar } from "../../components/revamp/NavBar"
 import Footer from "../../components/revamp/Footer"
 
 const MissingMarks = () => {
     return (
         <div>
             <div className="">
-                <CaseNavBar />
+                <NoLinksNavBar />
                 <div className="grid lg:grid-cols-2 items-center">
                     <div className="lg:ml-28 p-4 lg:p-0 ">
                         <Link to="/" className="flex">

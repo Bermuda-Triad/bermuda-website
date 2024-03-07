@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { ArrowBack } from "../../components/revamp/Icons"
-import { CaseNavBar } from "../../components/revamp/NavBar"
+import { NoLinksNavBar } from "../../components/revamp/NavBar"
 import Hero from "../../assets/revamp/projects/dnf/dnf-hero (1).png"
 import HeroMobile from "../../assets/revamp/projects/dnf/dnf-hero-mobile (1).png"
 import BodyOne from "../../assets/revamp/projects/dnf/dnf-body-one (1).png"
@@ -13,7 +13,7 @@ const DnfCase = () => {
     return (
         <div>
             <div>
-                <CaseNavBar />
+                <NoLinksNavBar />
             </div>
             <div className="">
                 <div className="grid lg:grid-cols-2 items-center">
