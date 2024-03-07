@@ -1,22 +1,30 @@
-export const sendMail = () =>{
+export const sendMail = () => {
     // Get input field values
     var userName = document.getElementById("userName").value.trim();
-    var services = document.getElementById("services").value.trim();
     var email = document.getElementById("email").value.trim();
-    var description = document.getElementById("description").value.trim();
+    var message = document.getElementById("message").value.trim();
+    var checkboxes = document.querySelectorAll('input[type="checkbox"][name="checkboxGroup"]');
+    var selectedServices = [];
 
-    // Check if any required field is empty
-    // if (userName === "" || services === "" || email === "") {
-    //     alert("Please fill out all required fields.");
-    //     document.getElementById("ErrorText").textContent = "This field is required";
-    //     return; // Exit the function if any field is empty
-    // }
+    checkboxes.forEach(checkbox => {
+        if (checkbox.checked) {
+            selectedServices.push(checkbox.value);
+        }
+    });
 
     var error = false;
-    
-    if (userName === "") { 
-      document.getElementById("nameError").textContent = "Name is a required field.";
-      error = true;
+
+    if (selectedServices.length === 0) {
+        // alert("Please select at least one service.");
+        document.getElementById("checkboxGroupError").textContent = "Select at least one option.";
+        error = true;
+    } else {
+        document.getElementById("checkboxGroupError").textContent = "";
+    }
+
+    if (userName === "") {
+        document.getElementById("nameError").textContent = "Name is a required field.";
+        error = true;
     } else {
         document.getElementById("nameError").textContent = "";
     }
@@ -28,25 +36,24 @@ export const sendMail = () =>{
         document.getElementById("emailError").textContent = "";
     }
 
-    if (services === "") {
-        document.getElementById("servicesError").textContent = "Services is a required field.";
+    if (message === "") {
+        document.getElementById("messageError").textContent = "Please add a few details about your project";
         error = true;
     } else {
-        document.getElementById("servicesError").textContent = "";
+        document.getElementById("messageError").textContent = "";
     }
 
 
     if (error) {
-        // If any required field is empty, exit the function
         return;
     }
-    
+
 
     var params = {
         userName: userName,
         email: email,
-        description: description,
-        services: services,
+        message: message,
+        services: selectedServices.join(", ")
     };
 
     const serviceID = "service_5sd2ebl";
@@ -55,22 +62,12 @@ export const sendMail = () =>{
     emailjs.send(serviceID, templateID, params)
         .then(res => {
             // Clear the input fields and display success message
-            // document.getElementById("userName").value = "";
-            // document.getElementById("email").value = "";
-            // document.getElementById("services").value = "";
-            // document.getElementById("description").value = "";
-            alert("Your message sent successfully!!");
+            document.getElementById("userName").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            alert("Your message sent successfully!! Check your email for our reply");
             console.log("success")
         })
         .catch(err => console.log(err));
 
-
-
-        
 }
-
-
-
-
-
-
