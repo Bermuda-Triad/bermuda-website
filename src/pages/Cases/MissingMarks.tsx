@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { ArrowBack } from "../../components/revamp/Icons"
 import Hero from "../../assets/revamp/projects/missing-marks/MissingMarkThumb (1).png"
+import HeroMobile from "../../assets/revamp/projects/missing-marks/MissingMobileThumb.png"
 import BodyOne from "../../assets/revamp/projects/missing-marks/MissingBody (1).png"
 import ItemOne from "../../assets/revamp/projects/missing-marks/Element-one.png"
 import ItemTwo from "../../assets/revamp/projects/missing-marks/Element-two.png"
@@ -43,7 +44,7 @@ const MissingMarks = () => {
                         </div>
                     </div>
                     <img src={Hero} alt="" className="hidden lg:block" />
-                    {/* <img src={HeroMobile} alt="" className="lg:hidden" /> */}
+                    <img src={HeroMobile} alt="" className="lg:hidden" />
                 </div>
                 <section className="px-4 lg:py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
                     <div className="lg:py-16">
