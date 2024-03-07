@@ -123,15 +123,18 @@ const LandingPage2 = () => {
                             </div>
                             <p className="py-6 lg:text-[#18171C] text-sm">Daisy Nyongesa Foundation seeks to address societal needs. This is after identifying the existing gaps ... <span className="font-bold lg:text-[#18171C]">Read More</span></p>
                             <div className="flex">
-                                <a href="" className="flex items-center px-6 py-3 bg-[#09CF83] lg:bg-[#18171C] rounded-full gap-2 hover:translate-x-2 transform duration-300">
-                                    <span className="font-semibold text-[#18171C] lg:text-white text-sm leading-none">View Project</span>
-                                    <span className="hidden lg:block">
-                                        <ForwardIcon />
-                                    </span>
-                                    <span className="lg:hidden">
-                                        <ForwardIconDark />
-                                    </span>
-                                </a>
+                                <Link to="/missing-marks" >
+                                    <div className="flex items-center px-6 py-3 bg-[#09CF83] lg:bg-[#18171C] rounded-full gap-2 hover:translate-x-2 transform duration-300">
+                                        <span className="font-semibold text-[#18171C] lg:text-white text-sm leading-none">View Project</span>
+                                        <span className="hidden lg:block">
+                                            <ForwardIcon />
+                                        </span>
+                                        <span className="lg:hidden">
+                                            <ForwardIconDark />
+                                        </span>
+                                    </div>
+                                </Link>
+
                             </div>
                         </div>
                     </div>
@@ -145,7 +148,7 @@ const LandingPage2 = () => {
             </section>
             <div className="pt-16">
                 <Marquee>
-                    <p className="uppercase text-4xl lg:text-7xl font-bold hero2 opacity-25 text-[#09CF83]">More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon ** </p>
+                    <p className="uppercase tracking-tight text-7xl font-bold hero2 opacity-25 text-[#09CF83]">More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon **  More Projects Coming Soon ** </p>
                 </Marquee>
             </div>
             <section className="bg-white">
