@@ -32,15 +32,15 @@ const Footer = () => {
                             </div>
                             <div className="lg:hidden">
                                 <div className="flex items-center gap-2 justify-center lg:justify-normal">
-                                    <a href="">
+                                    <p>
                                         <Twitter />
-                                    </a>
-                                    <a href="">
+                                    </p>
+                                    <p>
                                         <LinkedIn />
-                                    </a>
-                                    <a href="">
+                                    </p>
+                                    <p>
                                         <Instagram />
-                                    </a>
+                                    </p>
                                 </div>
                             </div>
 
