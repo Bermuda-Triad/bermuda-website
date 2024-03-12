@@ -108,7 +108,6 @@ const LandingPage2 = () => {
                                         </span>
                                     </a>
                                 </Link>
-
                             </div>
                         </div>
                     </div>
@@ -258,7 +257,6 @@ const LandingPage2 = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div className="p-16 lg:pt-56 font-bold">
