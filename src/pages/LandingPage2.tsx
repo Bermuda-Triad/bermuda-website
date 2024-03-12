@@ -47,7 +47,7 @@ const LandingPage2 = () => {
                             <p className="hero2 text-[#18171C] text-4xl lg:text-6xl font-bold ">Services</p>
                             <p className="text-[#18171C] py-3 lg:py-10 lg:w-3/4">Professional solutions tailored to your business's needs.</p>
                             <div className="lg:flex hidden">
-                                <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
+                                <a href="/contact" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
                                     <span className="text-[#18171C] font-medium">Start a Project</span>
                                     <span>
                                         <ForwardIconDark />
@@ -71,7 +71,7 @@ const LandingPage2 = () => {
                                 </div>
                             </div>
                             <div className="flex lg:hidden pt-8">
-                                <a href="" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
+                                <a href="/contact" className="flex px-6 py-3 bg-[#09CF83] rounded-full gap-2 hover:translate-x-2 transform duration-300">
                                     <span className="text-[#18171C] font-medium">Work With Us</span>
                                     <span>
                                         <ForwardIconDark />
